@@ -1,0 +1,43 @@
+from itertools import combinations
+from nltk.corpus import wordnet as wn
+from copy import deepcopy
+
+
+def maxSimilarity(list1):
+
+    allSyns = dict()
+    for word in list1:
+       print(word)
+       allSyns[word] =  wn.synsets(word)[0]
+       print(allSyns[word])
+       #input()
+    
+    #allSyns2 = deepcopy(allSyns1)
+
+    simWordDict = dict()
+    pairList = [pair for pair in combinations(allSyns.keys(), 2)]
+    print(pairList)
+    
+    for p in pairList:
+        s1 = allSyns[p[0]]
+        s2 = allSyns[p[1]] 
+        z = wn.wup_similarity(s1, s2) 
+        if not z:
+          z = 0.00
+        if p
+        simWordDict[] = z
+        else:
+          simWordDict[p] = 0.00
+ 
+    
+    print(simWordDict)
+    sList = sorted(simWordDict.items(), key = lambda x: x[1], reverse = True)
+    for i in sList:
+        print(i) 
+    print(len(pairList))
+    print(len(simWordDict)) 
+    
+
+
+a = ['book', 'pickle', 'ball', 'article', 'novel', 'food', 'river', 'bank', 'money']
+maxSimilarity(a)
