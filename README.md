@@ -27,3 +27,13 @@
        c. total files where some of the author-written keyphrases are not in the original document 
 5. TextRank.py
 
+6. absIntersect.py
+     to count the statistics written on "stats.txt" file
+7.convertPDFs.py
+     convert pdfs to raw text
+8. evaluate_i_measure.py
+     evaluate the textrank written output with the abstract( and/or keyphrases)
+     and produce the ke_stat.dat and summ_stat.dat files
+     if you do not want to evaluate the keyphrases, set the boolean values accordingly.
+     For example, evalTestCases.iterOverAll(True, False) will only creat the summ_stat.dat file
+     terminal instruction: python3 evaluate_i_measure.py 
