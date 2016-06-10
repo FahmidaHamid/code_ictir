@@ -13,15 +13,17 @@ from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.stem.snowball import SnowballStemmer
 
 
+
 class evaluate_i_measure:
 
-    def __init__(self, refSummPath, refKEPath, sysSummPath, sysKEPath, oPath, writePath, ke, summ):
+    def __init__(self, refSummPath, refKEPath, sysSummPath, sysKEPath, oPath, writePath, dataPath, ke, summ):
         self.refSummPath = refSummPath
         self.refKEPath = refKEPath
         self.sysSummPath = sysSummPath
         self.sysKEPath = sysKEPath
         self.writePath = writePath 
         self.oPath = oPath
+        self.dataPath = dataPath
         self.ke = ke  #true or false
         self.summ = summ #true or false
 
@@ -31,18 +33,6 @@ class evaluate_i_measure:
         extra = set(['also', 'e.g.', 'etc', 'et al.', 'et'])
         self.excludeSet = self.excludeSet.union(extra) 
         self.lmtzr = WordNetLemmatizer()
-
-
-    def path_similarity(self,synset1, synset2):
-    
-        print('Synset1: ',synset1)
-        print('Synset2: ',synset2)
-        
-        distance = synset1.shortest_path_distance(synset2)
-        if distance:
-           return 1.0 / (distance + 1)
-        else:
-           return -1
 
 
 
@@ -75,33 +65,35 @@ class evaluate_i_measure:
 
     def processData(self, sentences):
 
-        lWord = dict()
+        wordList = dict()
         for sid, s in enumerate(sentences):
             s = s.rstrip('\n')
             s = s.lower()
             tokens = nltk.word_tokenize(s.translate(string.punctuation))   
             tags = nltk.pos_tag(tokens)
-            #print(tags)
             for ws in tags:
                 z = ws[0].rstrip('\'\"-,.:;!?()[]{}\+\\\/')
                 z = z.lstrip('\'\"-,.:;!?()[]{}\+\\\/') 
                 print(z)
-                if len(z) > 0:  
+                if len(z) > 0:
                    if ws[0] not in self.excludeSet:
-                     pos = ws[1]
-                     poswn = self.get_wordnet_pos(pos)
-                     if poswn: #do not accept anything otherthan nouns                        
-                       myWord = self.lmtzr.lemmatize(z, poswn)
-                       #wsynset =  wn.synsets(myWord, poswn)                     
-                       if myWord not in lWord.keys():
-                            lWord[myWord] = set([poswn])
-                       else:
-                            lWord[myWord].add(poswn)   
-
+                      pos = ws[1]
+                      poswn = self.get_wordnet_pos(pos)
+                      if poswn: #do not accept anything otherthan nouns
+                        myWord = self.lmtzr.lemmatize(z, poswn)
+                        wsynset =  wn.synsets(myWord, poswn)
+                        #lemma_names = set()
+                        #if len(wsynset) > 0 :
+                        #   wlemmas = wsynset[0].lemmas()
+                        #   for wl in wlemmas:
+                        #       lemma_names.add(str(wl.name()))
+                        if myWord not in wordList:
+                           wordList[myWord] = set(wsynset)	#global
         
-        n = len(lWord.keys())
         
-        return (n, lWord)
+        n = len(wordList.keys())
+        
+        return (n, wordList)
 
     def readDataRaw(self, cpath, fname):
     
@@ -118,78 +110,37 @@ class evaluate_i_measure:
          
         xSet = set(x)
         ySet = set(y)
-
         zSet = ySet.intersection(xSet)
-
         return zSet
     
-   
-    def simScore(self, wTuple, ref_words):
-    
-        maxS = -1.00
-        s1 = wn.synsets(wTuple[0], wTuple[1])
-        if s1: 
-           synset1 = s1[0] 
-           for t in ref_words.keys():
-             s2 = wn.synsets(t, ref_words[t])
-             if s2 and synset1: 
-               synset2 = s2[0]
-               temp = self.path_similarity(synset1, synset2)
-               if temp > maxS:
-                  maxS = temp
-        return maxS     
+    def synset_score(self, ref_words, sw_synset):
 
-    def simScore_ke(self, w, ref_words):
-    
-        maxS = -1.00
-        s1 = wn.synsets(w, 'n')
-        if s1: 
-           synset1 = s1[0] 
-           for t in ref_words:
-             s2 = wn.synsets(t, 'n')
-             if s2 and synset1: 
-               synset2 = s2[0]
-               temp = self.path_similarity(synset1, synset2)
-               if temp > maxS:
-                  maxS = temp
-        return maxS     
+        for r in ref_words.keys():
+              if len(set(r).intersection(sw_synset)) > 0:
+                 return (1, r)
+              r_synset = ref_words[r]
+              rzw = sw_synset.intersection(r_synset)
+              if len(rzw) > 0:
+                   return (1, r)
+        return (0, None)
 
 
 
 
+    def partialScores_synsets(self, zSet, ref_words, sys_words):
 
-    def partialScores(self, zSet,ref_words, sys_words):
-
-        itemScore = dict()
-
+        partial_omega = 0
+        partial_match = set()
         for sw in sys_words.keys():
             print(sw)
-            if sw in zSet:
-                 itemScore[sw] = 1.00
-                 print(itemScore[sw])
-            else:
-                 pscore = self.simScore((sw, sys_words[sw]), ref_words)
-                 if pscore != -1:
-                        itemScore[sw] = pscore
-                        print(itemScore[sw])
-        return itemScore 
+            if sw not in zSet:
+               (x,y)= self.synset_score(ref_words, sys_words[sw])
+               if x > 0:
+                  partial_omega += 1
+               if y is not None:
+                  partial_match.add((sw,y))
+        return (partial_omega, partial_match)
 
-
-    def partialScores_ke(self, zSet,ref_words, sys_words):
-
-        itemScore = dict()
-
-        for sw in sys_words:
-            print(sw)
-            if sw in zSet:
-                 itemScore[sw] = 1.00
-                 print(itemScore[sw])
-            else:
-                 pscore = self.simScore_ke(sw, ref_words)
-                 if pscore != -1:
-                        itemScore[sw] = pscore
-                        print(itemScore[sw])
-        return itemScore 
 
 
 
@@ -201,94 +152,115 @@ class evaluate_i_measure:
          kelines = kelines.rstrip()
          fopen.close()
          words = re.findall(r'[\w]+', kelines)
-         #print(words)
-         return (len(words), words)   
+
+         wordList = dict()
+         
+         for w in words:
+             wsynset =  wn.synsets(w, 'n')
+             if len(wsynset) > 0:
+               wl_names = set(wn.synsets(w, 'n')[0].lemma_names())
+               if w not in wordList:
+                  wordList[w] = wl_names
+             else:
+                  wordList[w] = set()
+         
+         return (len(wordList.keys()), wordList)
          
 
-         
-    def iterOverAll(self, summ, ke):
-         
-      if summ:   
-        onlyfiles = [f for f in listdir(self.sysSummPath) if isfile(join(self.sysSummPath, f))]
-        fname = 'summary_score.dat'
+    def writeSynsetData(self, f, localWords, ref_words, sys_words, complete_match, partial_match):
+    
+        data_file = open(self.dataPath + '/'+ f,  'w')
+    
+        data_file.write('Original Document:::\n-----------------------------\n')
+        for x in localWords.keys():
+            data_file.write(x + ':: '+ str(localWords[x]) + '\n')
+        data_file.write('\nAbstract:::\n-----------------------------\n')
+        for x in ref_words.keys():
+            data_file.write(x + ':: '+ str(ref_words[x]) + '\n')
+        data_file.write('\nTextRank Output:::\n-----------------------------\n')
+        for x in sys_words.keys():
+            data_file.write(x + ':: '+ str(sys_words[x]) + '\n')
+        data_file.write('Completely Matched:\n------------------------------\n')
+        for x in complete_match:
+            data_file.write(x + '\n')
+                            
+        data_file.write('Partially Matched:\n----------------------------\n')
+        for x in partial_match:
+            data_file.write(x[0]+ '-->'+ x[1] + '\n')
+        
+        data_file.close()
+
+    def writeData(self, fname, data):
         stat_file = open(self.writePath + '/'+ fname,  'w')
-        stat_file.write('file_name *** n *** k *** l *** omega *** rand_avg *** i_measure *** score\n')
+        stat_file.write('file_name *** n *** k *** l *** omega *** partial_omega ***rand_avg *** i_measure_o *** i_measure_p\n\n')
+        
+        for f in data:
+            x = data[f]
+            stat_file.write(f + ' *** ' + str(x[0])+ ' *** '+ str(x[1]) + ' *** ' + str(x[2]) + ' *** ' + str(x[3]) + ' *** '+ str(x[4]) +' *** ' + str(x[5]) + ' *** '+ str(x[6]) + ' *** ' + str(x[7])+'\n')
+        
+        
+        
+        stat_file.close()
+
+    def iterOverAll(self, summ, ke):
+      
+      summStats = dict()
+      keStats = dict()
+      
+      
+      onlyfiles = [f for f in listdir(self.sysSummPath) if isfile(join(self.sysSummPath, f))]
         ##### read the entire file ####
-        for f in onlyfiles:
+      for f in onlyfiles:
             if f.startswith('.'):
                continue
             
             lines = self.readDataRaw(self.oPath, f) #read the body
             (local_n, localWords) = self.processData(lines)
-            print('No of words in the document: ', local_n) 
-            absLines = self.readDataRaw(self.refSummPath, f)
-            (local_k, ref_words) = self.processData(absLines)
-            if local_n == 0 or local_k == 0:
-                continue 
-            q = list(ref_words.keys())
-            sys_absLines = self.readDataRaw(self.sysSummPath, f)
-            (local_l, sys_words) = self.processData(sys_absLines)
-            p = list(sys_words.keys())
-            zSet = self.x_and_y(p,q)
-            local_omega = len(zSet)
-            item_score = self.partialScores(zSet, ref_words, sys_words)   
-            total_score = 0.00
-            for z in item_score.keys():
-                total_score += item_score[z]
-            (random_i, i_measure_v) = self.i_measure(local_n, local_k, local_l, local_omega)
-            if i_measure_v != 0 and total_score != 0:
-                 score = i_measure_v * total_score
-            else:
-                 score = total_score
-            stat_file.write(f + ' *** ' + str(local_n)+ ' *** '+ str(local_k) + ' *** ' + str(local_l) + ' *** ' + str(local_omega) + ' *** ' + str(random_i) + ' *** '+ str(i_measure_v) + ' *** ' + str(score)+ '\n')     
-            print('Score:: ', score)
+            print('No of words in the document: ', local_n)
+            if summ:
+              absLines = self.readDataRaw(self.refSummPath, f)
+              (local_k, ref_words) = self.processData(absLines)
+              if local_n == 0 or local_k == 0:
+                  continue
+                    
+              q = list(ref_words.keys())
+              sys_absLines = self.readDataRaw(self.sysSummPath, f)
+              (local_l, sys_words) = self.processData(sys_absLines)
+              p = list(sys_words.keys())
+              zSet = self.x_and_y(p,q)
+              local_omega = len(zSet)
+              partial = self.partialScores_synsets(zSet, ref_words, sys_words)
+              print('Original Omega: ', local_omega)
+              print('New Omega: ', local_omega + partial[0])
+              (random_i, i_measure_v1) = self.i_measure(local_n, local_k, local_l, local_omega)
+              (random_i, i_measure_v2) = self.i_measure(local_n, local_k, local_l, local_omega + partial[0])
+              summStats[f] = (local_n, local_k, local_l, local_omega, partial[0],random_i, i_measure_v1, i_measure_v2)
             
-        stat_file.close()
+              self.writeSynsetData(f, localWords, ref_words, sys_words, zSet, partial[1])
+            if ke:
+               (local_k, ref_words)= self.splitKeywords(self.refKEPath+'/'+f)
+               if local_n == 0 or local_k == 0:
+                  continue
+               q = list(ref_words)
+               (local_l, sys_words)= self.splitKeywords(self.sysKEPath+'/'+f)
+               p = list(sys_words)
+               zSet = self.x_and_y(p,q)
+               print(zSet)
+               local_omega = len(zSet)
+               partial = self.partialScores_synsets(zSet, ref_words,sys_words)
+               print('Original Omega: ', local_omega)
+               print('New Omega: ', local_omega + partial[0])
+               #input()
+               (random_i, i_measure_v1) = self.i_measure(local_n, local_k, local_l, local_omega)
+               (random_i, i_measure_v2) = self.i_measure(local_n, local_k, local_l, local_omega + partial[0])
+                                         
+               keStats[f] = (local_n, local_k, local_l, local_omega, partial[0], random_i, i_measure_v1, i_measure_v2)
+    
 
-
-        if ke:   
-          onlyfiles = [f for f in listdir(self.sysKEPath) if isfile(join(self.sysKEPath, f))]
-          fname = 'ke_score.dat'
-          stat_file = open(self.writePath + '/'+ fname,  'w')
-          stat_file.write('file_name *** n *** k *** l *** omega *** rand_avg *** i_measure *** score\n')
-          ##### read the entire file ####
-          for f in onlyfiles:
-             if f.startswith('.'):
-                continue
-            
-             lines = self.readDataRaw(self.oPath, f) #read the body
-             (local_n, local_words) = self.processData(lines)
-             print('No of words in the document: ', local_n) 
-             (local_k, ref_words)= self.splitKeywords(self.refKEPath+'/'+f)
-             if local_n == 0 or local_k == 0:
-                continue 
-             q = list(ref_words)
-             (local_l, sys_words)= self.splitKeywords(self.sysKEPath+'/'+f)
-             #print('No of words in system output: ', local_l)
-             #input() 
-             p = list(sys_words)
-             zSet = self.x_and_y(p,q)
-             print(zSet)
-             local_omega = len(zSet)
-             #input()  
-             item_score = self.partialScores_ke(zSet, ref_words, sys_words)   
-             #print(local_l)
-             print(sys_words)
-             print(ref_words)
-             total_score = 0.00
-             for z in item_score.keys():
-                print(z, '>>', item_score[z])
-                total_score += item_score[z]
-             (random_i, i_measure_v) = self.i_measure(local_n, local_k, local_l, local_omega)
-             if i_measure_v != 0 and total_score != 0:
-                 score = i_measure_v * total_score
-             else:
-                 score = total_score
-             stat_file.write(f + ' *** ' + str(local_n)+ ' *** '+ str(local_k) + ' *** ' + str(local_l) + ' *** ' + str(local_omega) + ' *** ' + str(random_i) + ' *** '+ str(i_measure_v) + ' *** ' + str(score)+ '\n')     
-             print('Score:: ', score)
-            
-          stat_file.close()
-   
+      if summ:
+           self.writeData('summ_stat.dat', summStats)
+      if ke:
+           self.writeData('ke_stat.dat', keStats)
 
 #################################################################
 #### reset the paths
@@ -296,14 +268,21 @@ class evaluate_i_measure:
 readPath = '/Users/fahmidahamid/Desktop/ictir_2016/data/www_No_ABS'
 absPath = '/Users/fahmidahamid/Desktop/ictir_2016/data/www_ABS'
 kePath = '/Users/fahmidahamid/Desktop/ictir_2016/data/www_KE'
-trPathSumm = '/Users/fahmidahamid/Desktop/ictir_2016/system/wwwSampleTextRank_Summ'
-trPathKE = '/Users/fahmidahamid/Desktop/ictir_2016/system/wwwSampleTextRank_KE'
-writePath = '/Users/fahmidahamid/Desktop/ictir_2016/system/www_result_stat'
+trPathSumm = '/Users/fahmidahamid/Desktop/ictir_2016/textrank_output/wwwSampleTextRank_Summ'
+trPathKE = '/Users/fahmidahamid/Desktop/ictir_2016/textrank_output/wwwSampleTextRank_KE'
+writePath = '/Users/fahmidahamid/Desktop/ictir_2016/code/www_result_stat'
+dataPath = '/Users/fahmidahamid/Desktop/ictir_2016/code/synsetsApr28'
 try:
     os.stat(writePath)
 except:
     os.mkdir(writePath)       
 
-evalTestCases = evaluate_i_measure(absPath, kePath, trPathSumm, trPathKE, readPath, writePath, True, True)
+try:
+    os.stat(dataPath)
+except:
+    os.mkdir(dataPath)
+
+
+evalTestCases = evaluate_i_measure(absPath, kePath, trPathSumm, trPathKE, readPath, writePath, dataPath, True, True)
 evalTestCases.iterOverAll(True, True)
 

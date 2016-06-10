@@ -33,7 +33,8 @@ class TextRank:
         extra = set(['also', 'e.g.', 'etc', 'et al.', 'et'])
         self.excludeSet = self.excludeSet.union(extra) 
         self.lmtzr = WordNetLemmatizer()
-
+        self.stemmer = SnowballStemmer("english")
+ 
         self.readP = pathList[2]
         self.abstractP = pathList[0]
         self.keP = pathList[1]

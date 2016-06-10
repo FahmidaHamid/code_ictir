@@ -1,0 +1,952 @@
+Original Document:::
+-----------------------------
+step:: {Synset('footstep.n.03'), Synset('step.n.10'), Synset('footfall.n.01'), Synset('step.n.04'), Synset('dance_step.n.01'), Synset('step.n.03'), Synset('footprint.n.01'), Synset('gradation.n.01'), Synset('measure.n.01'), Synset('step.n.06'), Synset('tone.n.09')}
+maximum:: {Synset('maximal.a.01')}
+objective:: {Synset('objective.a.01'), Synset('objective.a.02'), Synset('objective.s.03'), Synset('objective.s.04')}
+large:: {Synset('large.s.02'), Synset('large.a.01'), Synset('bombastic.s.01'), Synset('big.s.11'), Synset('large.s.06'), Synset('big.s.13'), Synset('big.s.05')}
+appropriate:: {Synset('appropriate.a.01')}
+unacquainted-world:: set()
+relational:: {Synset('relational.s.01')}
+accommodates:: set()
+power:: {Synset('power.n.05'), Synset('power.n.01'), Synset('office.n.04'), Synset('ability.n.02'), Synset('might.n.01'), Synset('world_power.n.01'), Synset('baron.n.03'), Synset('exponent.n.03'), Synset('power.n.02')}
+model-based:: set()
+intention:: {Synset('intention.n.02'), Synset('intention.n.03'), Synset('purpose.n.01')}
+absence:: {Synset('absence.n.01'), Synset('absence.n.04'), Synset('absence.n.02'), Synset('absence.n.03')}
+capture:: {Synset('capture.n.05'), Synset('capture.n.04'), Synset('capture.n.03'), Synset('capture.n.01'), Synset('capture.n.02')}
+cold-start:: set()
+follow:: set()
+triadic:: set()
+error:: {Synset('error.n.05'), Synset('erroneousness.n.01'), Synset('error.n.06'), Synset('error.n.07'), Synset('error.n.04'), Synset('mistake.n.01'), Synset('error.n.03')}
+shanghai:: set()
+last:: {Synset('concluding.s.01'), Synset('last.a.02'), Synset('final.s.03'), Synset('last.s.09'), Synset('last.s.01'), Synset('last.s.07'), Synset('final.s.02'), Synset('last.s.05'), Synset('last.s.04')}
+heterogeneity:: {Synset('heterogeneity.n.01')}
+disadvantage:: {Synset('disadvantage.n.01')}
+domain-factor:: set()
+unreliable:: {Synset('treacherous.s.01'), Synset('unreliable.s.04'), Synset('undependable.s.02'), Synset('unreliable.a.02')}
+advantage:: {Synset('advantage.n.02'), Synset('advantage.n.01'), Synset('advantage.n.03')}
+plan:: {Synset('plan.n.01'), Synset('plan.n.03'), Synset('design.n.02')}
+complete:: {Synset('complete.s.02'), Synset('arrant.s.01'), Synset('complete.s.05'), Synset('accomplished.s.01'), Synset('complete.a.01')}
+filtering:: set()
+mf/tf:: set()
+item598-minimizing:: set()
+square:: {Synset('square.n.01'), Synset('public_square.n.01'), Synset('square.n.05'), Synset('square.n.06'), Synset('square.n.08'), Synset('square.n.07'), Synset('square.n.04'), Synset('square.n.02')}
+validation:: {Synset('establishment.n.07'), Synset('validation.n.01')}
+dislike:: {Synset('disfavor.n.02'), Synset('dislike.n.02')}
+weak:: {Synset('weak.s.09'), Synset('watery.s.04'), Synset('weak.s.05'), Synset('unaccented.s.02'), Synset('weak.s.08'), Synset('faint.s.01'), Synset('weak.s.06'), Synset('fallible.s.02'), Synset('decrepit.s.02'), Synset('weak.s.12'), Synset('weak.s.11'), Synset('weak.a.01')}
+still:: {Synset('even.r.03'), Synset('still.r.01'), Synset('however.r.01'), Synset('still.r.04')}
+solution:: {Synset('solution.n.01'), Synset('solution.n.05'), Synset('solution.n.04'), Synset('solution.n.03'), Synset('solution.n.02')}
+treat:: {Synset('dainty.n.01'), Synset('treat.n.02')}
+diverse:: {Synset('divers.s.01'), Synset('diverse.s.02')}
+idea:: {Synset('mind.n.06'), Synset('theme.n.03'), Synset('estimate.n.01'), Synset('idea.n.01'), Synset('idea.n.03')}
+tensor:: {Synset('tensor.n.02'), Synset('tensor.n.01')}
+exponential:: {Synset('exponential.a.01')}
+tr20:: set()
+vary:: set()
+underlying:: {Synset('implicit_in.s.01'), Synset('fundamental.s.02'), Synset('underlying.s.02')}
+closest:: set()
+relation:: {Synset('relative.n.01'), Synset('relation.n.01'), Synset('relation.n.04'), Synset('relation.n.06'), Synset('relation_back.n.01'), Synset('sexual_intercourse.n.01')}
+estimation:: {Synset('estimate.n.01'), Synset('appraisal.n.02'), Synset('estimate.n.02'), Synset('estimate.n.05')}
+integer:: {Synset('integer.n.01')}
+parallel:: {Synset('parallel.a.01'), Synset('parallel.s.02')}
+overall:: {Synset('overall.s.01'), Synset('overall.s.02')}
+efficiently:: {Synset('efficiently.r.01')}
+neighborhood-based:: set()
+neighborhood:: {Synset('region.n.04'), Synset('neighborhood.n.04'), Synset('vicinity.n.01'), Synset('neighborhood.n.02')}
+usually:: {Synset('normally.r.01')}
+game:: {Synset('game.n.10'), Synset('game.n.01'), Synset('game.n.04'), Synset('game.n.06'), Synset('game.n.02'), Synset('plot.n.01'), Synset('game.n.07'), Synset('game.n.05'), Synset('game.n.03'), Synset('game.n.09'), Synset('game.n.11')}
+comparison:: {Synset('comparison.n.02'), Synset('comparison.n.01'), Synset('comparison.n.03')}
+hence:: {Synset('hence.r.02'), Synset('hence.r.03'), Synset('therefore.r.01')}
+friend:: {Synset('ally.n.02'), Synset('acquaintance.n.03'), Synset('friend.n.01'), Synset('friend.n.05'), Synset('supporter.n.01')}
+example:: {Synset('model.n.07'), Synset('exemplar.n.01'), Synset('example.n.01'), Synset('case.n.01'), Synset('exercise.n.04'), Synset('example.n.04')}
+aside:: {Synset('away.r.10'), Synset('aside.r.02'), Synset('apart.r.02'), Synset('aside.r.01'), Synset('aside.r.06'), Synset('aside.r.05')}
+consistently:: {Synset('systematically.r.01')}
+related:: {Synset('related.a.01'), Synset('related.a.02')}
+inevitably:: {Synset('inescapably.r.01'), Synset('inevitably.r.01')}
+well-tuned:: set()
+t25:: set()
+differently:: {Synset('differently.r.01')}
+networking:: set()
+confidence:: {Synset('assurance.n.01'), Synset('confidence.n.02'), Synset('confidence.n.03'), Synset('confidence.n.05'), Synset('confidence.n.04')}
+apart:: set()
+positively:: {Synset('positively.r.02'), Synset('positively.r.01')}
+relaxes:: set()
+pseudo-inverse:: set()
+existence:: {Synset('being.n.01'), Synset('universe.n.01')}
+time:: {Synset('time.n.05'), Synset('time.n.01'), Synset('meter.n.04'), Synset('prison_term.n.01'), Synset('time.n.03'), Synset('time.n.04'), Synset('time.n.06'), Synset('clock_time.n.01'), Synset('fourth_dimension.n.01'), Synset('time.n.02')}
+inherent:: {Synset('implicit_in.s.01'), Synset('built-in.s.01')}
+delta:: set()
+table:: set()
+output:: {Synset('end_product.n.01'), Synset('output_signal.n.01'), Synset('output.n.04'), Synset('output.n.02'), Synset('output.n.05')}
+1:: {Synset('one.n.01')}
+preference:: {Synset('predilection.n.01'), Synset('preference.n.03'), Synset('preference.n.04'), Synset('preference.n.01')}
+social:: {Synset('social.a.01'), Synset('social.s.04'), Synset('social.s.06'), Synset('social.a.02'), Synset('social.a.03'), Synset('social.s.05')}
+direction:: {Synset('direction.n.02'), Synset('direction.n.03'), Synset('management.n.01'), Synset('guidance.n.01'), Synset('focus.n.01'), Synset('steering.n.02'), Synset('direction.n.06'), Synset('direction.n.01'), Synset('commission.n.06')}
+analogous:: {Synset('analogous.a.02'), Synset('analogous.s.01')}
+namely:: {Synset('namely.r.01')}
+iteratively:: set()
+mainly:: {Synset('chiefly.r.01')}
+recent:: {Synset('late.s.03'), Synset('recent.s.01')}
+fitting:: {Synset('adjustment.n.01'), Synset('fitting.n.04'), Synset('appointment.n.03'), Synset('fitting.n.02')}
+sgd:: set()
+equal:: {Synset('equal.a.01'), Synset('adequate.a.01')}
+auc:: set()
+n-cdcf-u:: set()
+research:: {Synset('research.n.01'), Synset('inquiry.n.01')}
+w.r.t:: set()
+transfer:: {Synset('transfer.n.04'), Synset('transportation.n.02'), Synset('transfer.n.05'), Synset('transfer.n.06'), Synset('transfer.n.03'), Synset('transfer.n.02')}
+weighted:: {Synset('leaden.s.02'), Synset('weighted.s.02')}
+mechanism:: {Synset('mechanism.n.03'), Synset('mechanism.n.04'), Synset('mechanism.n.01'), Synset('mechanism.n.05'), Synset('mechanism.n.02')}
+phenominon:: set()
+simply:: {Synset('merely.r.01'), Synset('plainly.r.02'), Synset('simply.r.03'), Synset('just.r.04')}
+dissatisfaction:: {Synset('dissatisfaction.n.01')}
+equation:: {Synset('equation.n.03'), Synset('equality.n.02'), Synset('equation.n.01')}
+true:: {Synset('true.s.09'), Synset('true.s.03'), Synset('true.s.02'), Synset('truthful.a.01'), Synset('true.s.08'), Synset('true.s.05'), Synset('true.a.01'), Synset('true.s.12'), Synset('genuine.s.02'), Synset('true.s.10'), Synset('dependable.s.02'), Synset('on-key.s.01')}
+common:: {Synset('common.s.03'), Synset('coarse.s.03'), Synset('common.a.02'), Synset('common.a.01'), Synset('common.s.04'), Synset('common.s.06'), Synset('common.s.05'), Synset('coarse.s.02'), Synset('common.s.09')}
+varies:: set()
+diag:: set()
+paramters:: set()
+sparser:: set()
+3-way:: set()
+www.kddcup2012.org/c/kddcup2012-track1:: set()
+reason:: {Synset('reason.n.02'), Synset('reason.n.06'), Synset('cause.n.02'), Synset('reason.n.03'), Synset('rationality.n.01'), Synset('reason.n.01')}
+column:: {Synset('column.n.02'), Synset('column.n.08'), Synset('column.n.05'), Synset('column.n.06'), Synset('column.n.09'), Synset('column.n.03'), Synset('column.n.01'), Synset('column.n.04'), Synset('column.n.07')}
+cp-als-r:: set()
+capital:: {Synset('capital.n.08'), Synset('capital.n.03'), Synset('capital.n.02'), Synset('capital.n.01'), Synset('das_kapital.n.01'), Synset('capital.n.04'), Synset('capital.n.06'), Synset('capital.n.05')}
+marginal:: {Synset('borderline.s.01'), Synset('fringy.s.01'), Synset('marginal.s.04'), Synset('bare.s.05')}
+rate:: {Synset('rate.n.02'), Synset('rate.n.04'), Synset('rate.n.01'), Synset('pace.n.03')}
+due:: {Synset('ascribable.s.01'), Synset('due.s.02'), Synset('due.a.01'), Synset('due.a.03')}
+often:: {Synset('much.r.05'), Synset('often.r.03'), Synset('frequently.r.01')}
+respectively:: {Synset('respectively.r.01')}
+proportion:: {Synset('proportion.n.02'), Synset('symmetry.n.02'), Synset('proportion.n.05'), Synset('proportion.n.01'), Synset('proportion.n.04')}
+2:: {Synset('two.n.01')}
+item-based:: set()
+popularity:: {Synset('popularity.n.01')}
+inactive:: {Synset('dormant.a.02'), Synset('inactive.a.04'), Synset('inactive.s.10'), Synset('inactive.a.07'), Synset('nonoperational.a.01'), Synset('inactive.a.08'), Synset('inactive.s.01'), Synset('inactive.a.02'), Synset('passive.a.01'), Synset('inactive.a.09')}
+manually:: {Synset('manually.r.01')}
+n-cdcf-i:: set()
+specifically:: {Synset('specifically.r.01')}
+k=1:: set()
+note:: {Synset('eminence.n.01'), Synset('note.n.01'), Synset('note.n.04'), Synset('note.n.03'), Synset('note.n.02'), Synset('note.n.09'), Synset('note.n.07'), Synset('bill.n.03'), Synset('note.n.05')}
+next:: {Synset('adjacent.s.01'), Synset('following.s.02'), Synset('future.s.03')}
+recently:: {Synset('recently.r.01')}
+diversity:: {Synset('diverseness.n.01'), Synset('diversity.n.02')}
+canonical:: {Synset('basic.s.02'), Synset('canonic.a.02'), Synset('canonic.a.01'), Synset('canonic.s.04')}
+wide:: {Synset('wide-eyed.s.02'), Synset('across-the-board.s.01'), Synset('broad.s.06'), Synset('wide.s.07'), Synset('wide.a.01'), Synset('wide.s.06'), Synset('wide.a.05')}
+impact:: {Synset('impingement.n.01'), Synset('impact.n.02'), Synset('shock.n.02'), Synset('impact.n.01')}
+indeed:: {Synset('indeed.r.02'), Synset('indeed.r.01')}
+good:: {Synset('good.s.20'), Synset('good.s.19'), Synset('good.s.12'), Synset('good.a.03'), Synset('full.s.06'), Synset('good.s.06'), Synset('good.s.07'), Synset('good.s.13'), Synset('effective.s.04'), Synset('good.s.16'), Synset('good.s.18'), Synset('good.s.09'), Synset('dependable.s.04'), Synset('good.s.21'), Synset('beneficial.s.01'), Synset('good.s.17'), Synset('dear.s.02'), Synset('estimable.s.02'), Synset('good.s.15'), Synset('adept.s.01'), Synset('good.a.01')}
+sum:: {Synset('sum.n.03'), Synset('kernel.n.03'), Synset('sum.n.01'), Synset('sum.n.02'), Synset('sum.n.05'), Synset('union.n.08')}
+effective:: {Synset('effective.s.02'), Synset('effective.s.05'), Synset('effective.s.03'), Synset('effective.a.01'), Synset('effective.s.04'), Synset('effective.s.06')}
+really:: {Synset('truly.r.01'), Synset('very.r.01'), Synset('in_truth.r.01'), Synset('actually.r.01')}
+depth:: {Synset('depth.n.01'), Synset('depth.n.06'), Synset('astuteness.n.02'), Synset('depth.n.04'), Synset('depth.n.02'), Synset('depth.n.03')}
+mutationcurrent:: set()
+change:: {Synset('change.n.08'), Synset('change.n.02'), Synset('change.n.04'), Synset('change.n.03'), Synset('change.n.07'), Synset('change.n.09'), Synset('change.n.01'), Synset('change.n.05'), Synset('change.n.06'), Synset('variety.n.06')}
+especially:: {Synset('particularly.r.01'), Synset('specially.r.01')}
+different:: {Synset('different.s.05'), Synset('unlike.a.01'), Synset('different.s.03'), Synset('different.a.01'), Synset('different.s.02')}
+searching:: set()
+convergence:: {Synset('convergence.n.02'), Synset('overlap.n.01'), Synset('convergence.n.01'), Synset('convergence.n.04')}
+mean:: {Synset('mean.n.01')}
+attractive:: {Synset('attractive.a.01'), Synset('attractive.s.02'), Synset('attractive.a.03')}
+history:: {Synset('history.n.01'), Synset('history.n.04'), Synset('history.n.05'), Synset('history.n.02'), Synset('history.n.03')}
+dyadic:: {Synset('dyadic.a.01')}
+sn:: {Synset('tin.n.01')}
+flat:: {Synset('categoric.s.02'), Synset('flat.s.11'), Synset('flat.s.14'), Synset('bland.s.01'), Synset('flat.a.06'), Synset('compressed.s.03'), Synset('flat.s.15'), Synset('flat.s.10'), Synset('bland.s.02'), Synset('flat.s.12'), Synset('flat.s.01'), Synset('flat.s.02'), Synset('two-dimensional.s.02'), Synset('flat.a.05'), Synset('flat.s.04')}
+law596:: set()
+cp:: set()
+absolutely:: {Synset('absolutely.r.01'), Synset('absolutely.r.02')}
+list:: {Synset('list.n.01'), Synset('tilt.n.04')}
+eigenvectors:: set()
+genetic:: {Synset('genetic.a.03'), Synset('familial.s.02'), Synset('genetic.a.04'), Synset('genic.a.01')}
+bpr:: set()
+scheme:: {Synset('outline.n.03'), Synset('system.n.02'), Synset('schema.n.01'), Synset('dodge.n.03'), Synset('scheme.n.01')}
+optimum:: {Synset('optimum.s.01')}
+combination:: {Synset('combination.n.06'), Synset('combination.n.02'), Synset('combination.n.01'), Synset('combination.n.07'), Synset('combination.n.05'), Synset('combination.n.04'), Synset('combination.n.03')}
+hyper-parameters:: set()
+current:: {Synset('current.a.01')}
+individual:: {Synset('person.n.01'), Synset('individual.n.02')}
+partial:: {Synset('partial.s.01'), Synset('fond.s.03'), Synset('partial.a.02')}
+kdd:: set()
+horizontally:: {Synset('horizontally.r.01')}
+kth:: set()
+flexible:: {Synset('flexible.s.04'), Synset('compromising.a.01'), Synset('flexible.a.02'), Synset('flexible.a.01'), Synset('elastic.s.02')}
+rather:: {Synset('preferably.r.01'), Synset('rather.r.02'), Synset('quite.r.01'), Synset('rather.r.01')}
+larger-scaled:: set()
+positive:: {Synset('positive.a.04'), Synset('plus.s.02'), Synset('cocksure.s.01'), Synset('positive.s.05'), Synset('positive.a.08'), Synset('positivist.a.01'), Synset('convinced.s.01'), Synset('positive.s.09'), Synset('positive.s.10'), Synset('positive.a.01'), Synset('incontrovertible.s.01')}
+trait:: {Synset('trait.n.01')}
+k=10:: set()
+element:: {Synset('chemical_element.n.01'), Synset('element.n.04'), Synset('component.n.03'), Synset('element.n.05'), Synset('component.n.01'), Synset('element.n.07'), Synset('element.n.06')}
+previously:: {Synset('previously.r.01')}
+fast:: {Synset('fast.r.01'), Synset('fast.r.02')}
+subscript:: {Synset('subscript.n.01')}
+generally:: {Synset('generally.r.02'), Synset('by_and_large.r.01'), Synset('broadly.r.01')}
+pf2-cdcf:: set()
+era:: {Synset('earned_run_average.n.01'), Synset('era.n.01'), Synset('era.n.02')}
+problem:: {Synset('problem.n.01'), Synset('problem.n.02'), Synset('trouble.n.01')}
+always:: {Synset('always.r.01'), Synset('constantly.r.02'), Synset('constantly.r.01'), Synset('always.r.04'), Synset('always.r.05')}
+automatic:: {Synset('automatic.s.02'), Synset('automatic.s.03'), Synset('automatic.a.01')}
+recommender:: set()
+generative:: {Synset('generative.a.01'), Synset('generative.s.02')}
+music:: {Synset('music.n.05'), Synset('music.n.01'), Synset('music.n.03'), Synset('music.n.04'), Synset('music.n.02')}
+mf-cdcf:: set()
+year:: {Synset('year.n.01'), Synset('class.n.06'), Synset('year.n.02'), Synset('year.n.03')}
+mutation:: {Synset('mutation.n.02'), Synset('mutation.n.03'), Synset('mutant.n.01')}
+extends:: set()
+w1w2w3w4w1w2w3w4w1w2w3w4w1w2w3w4w1w2w3w4w1w2w3w4w:: set()
+initialize:: set()
+out:: {Synset('out.s.04'), Synset('out.a.01'), Synset('knocked_out.s.01'), Synset('extinct.s.03'), Synset('out.s.08'), Synset('out.s.06'), Synset('out.s.07'), Synset('out.s.09'), Synset('forbidden.s.01'), Synset('out.s.03')}
+wbook:: set()
+rule:: {Synset('rule.n.04'), Synset('principle.n.04'), Synset('rule.n.08'), Synset('rule.n.01'), Synset('rule.n.06'), Synset('convention.n.02'), Synset('principle.n.01'), Synset('rule.n.12'), Synset('rule.n.11'), Synset('rule.n.03'), Synset('dominion.n.01'), Synset('rule.n.09')}
+single:: {Synset('single.a.02'), Synset('unmarried.a.01'), Synset('single.a.03'), Synset('individual.a.01'), Synset('individual.s.03'), Synset('single.s.07'), Synset('single.s.06')}
+length:: {Synset('distance.n.03'), Synset('length.n.01'), Synset('length.n.05'), Synset('length.n.03'), Synset('duration.n.03')}
+age:: {Synset('old_age.n.01'), Synset('long_time.n.01'), Synset('historic_period.n.01'), Synset('age.n.01'), Synset('age.n.03')}
+em:: {Synset('em.n.01'), Synset('em.n.02')}
+cross-domain:: set()
+mark:: {Synset('marker.n.02'), Synset('mark.n.08'), Synset('mark.n.10'), Synset('mark.n.06'), Synset('scratch.n.10'), Synset('mark.n.12'), Synset('bell_ringer.n.03'), Synset('target.n.01'), Synset('mark.n.07'), Synset('mark.n.05'), Synset('mark.n.04'), Synset('sign.n.01'), Synset('chump.n.01'), Synset('crisscross.n.01'), Synset('mark.n.01')}
+dependent:: {Synset('dependent.s.02'), Synset('pendent.s.01'), Synset('dependent.a.03'), Synset('dependent.a.01'), Synset('dependent.s.06'), Synset('subject.s.02')}
+couple:: {Synset('couple.n.03'), Synset('couple.n.02'), Synset('couple.n.04'), Synset('couple.n.01'), Synset('couple.n.05')}
+behavior:: {Synset('behavior.n.02'), Synset('demeanor.n.01'), Synset('behavior.n.04'), Synset('behavior.n.01')}
+unable:: {Synset('unable.s.02'), Synset('unable.a.01'), Synset('ineffective.s.02')}
+distribution:: {Synset('distribution.n.01'), Synset('distribution.n.03'), Synset('distribution.n.04'), Synset('distribution.n.02')}
+update:: {Synset('update.n.01')}
+growth:: {Synset('growth.n.04'), Synset('emergence.n.01'), Synset('growth.n.07'), Synset('growth.n.06'), Synset('growth.n.01'), Synset('growth.n.02'), Synset('increase.n.03')}
+even:: {Synset('even.r.02'), Synset('even.r.04'), Synset('even.r.01'), Synset('even.r.03')}
+huge:: {Synset('huge.s.01')}
+knowledge:: {Synset('cognition.n.01')}
+demonstration:: {Synset('demonstration.n.02'), Synset('demonstration.n.05'), Synset('presentation.n.02'), Synset('demonstration.n.03'), Synset('demonstration.n.04')}
+lowercase:: {Synset('small_letter.n.01')}
+use:: {Synset('habit.n.02'), Synset('use.n.07'), Synset('function.n.02'), Synset('use.n.03'), Synset('use.n.01'), Synset('manipulation.n.01'), Synset('consumption.n.03')}
+deliberately:: {Synset('measuredly.r.01'), Synset('intentionally.r.01')}
+difference:: {Synset('difference.n.01'), Synset('deviation.n.01'), Synset('remainder.n.03'), Synset('dispute.n.01'), Synset('difference.n.04')}
+back:: {Synset('back.r.05'), Synset('back.r.01'), Synset('back.r.06'), Synset('back.r.04'), Synset('back.r.03'), Synset('back.r.02')}
+nature:: {Synset('nature.n.01'), Synset('nature.n.04'), Synset('nature.n.03'), Synset('nature.n.02'), Synset('nature.n.05')}
+maes:: set()
+group:: {Synset('group.n.03'), Synset('group.n.01'), Synset('group.n.02')}
+detail:: {Synset('detail.n.03'), Synset('detail.n.04'), Synset('detail.n.01'), Synset('contingent.n.02'), Synset('detail.n.02')}
+consequently:: {Synset('consequently.r.02'), Synset('consequently.r.01')}
+success:: {Synset('success.n.01'), Synset('success.n.02'), Synset('success.n.03'), Synset('achiever.n.01')}
+instance:: {Synset('case.n.01'), Synset('example.n.01')}
+random:: {Synset('random.a.01')}
+kind:: {Synset('kind.n.01')}
+essence:: {Synset('effect.n.04'), Synset('kernel.n.03'), Synset('essence.n.02'), Synset('perfume.n.02')}
+item-factor:: set()
+commission:: {Synset('commission.n.03'), Synset('mission.n.03'), Synset('commission.n.07'), Synset('deputation.n.01'), Synset('commission.n.04'), Synset('commission.n.02'), Synset('commission.n.06'), Synset('committee.n.01'), Synset('perpetration.n.01')}
+w:: {Synset('watt.n.01'), Synset('west.n.02'), Synset('tungsten.n.01'), Synset('w.n.04')}
+real:: {Synset('veridical.s.01'), Synset('real.s.04'), Synset('real.s.03'), Synset('real.a.02'), Synset('real.a.01'), Synset('real.a.06'), Synset('substantial.a.03'), Synset('actual.s.03'), Synset('real.s.08')}
+commonly:: {Synset('normally.r.01')}
+small:: {Synset('belittled.s.01'), Synset('small.a.01'), Synset('modest.s.02'), Synset('little.s.03'), Synset('minor.s.10'), Synset('little.s.05'), Synset('small.s.04'), Synset('humble.s.01'), Synset('little.s.07'), Synset('small.s.08')}
+component:: {Synset('part.n.01'), Synset('component.n.01'), Synset('component.n.03')}
+cd:: {Synset('cadmium.n.01'), Synset('certificate_of_deposit.n.01'), Synset('candle.n.02'), Synset('compact_disk.n.01')}
+*jian:: set()
+surprisingly:: {Synset('amazingly.r.01'), Synset('surprisingly.r.01')}
+function:: {Synset('function.n.01'), Synset('function.n.03'), Synset('function.n.05'), Synset('function.n.02'), Synset('routine.n.03'), Synset('function.n.04'), Synset('affair.n.03')}
+light:: {Synset('idle.s.04'), Synset('light.s.18'), Synset('light.a.02'), Synset('light.a.05'), Synset('light.s.09'), Synset('light.s.08'), Synset('faint.s.04'), Synset('unaccented.s.02'), Synset('light.a.13'), Synset('light.s.19'), Synset('light.s.20'), Synset('light.a.03'), Synset('easy.s.10'), Synset('light.s.24'), Synset('light.a.06'), Synset('light.a.04'), Synset('light.s.23'), Synset('abstemious.s.02'), Synset('light.s.11'), Synset('light.s.16'), Synset('light.a.14'), Synset('light.s.22'), Synset('clean.s.03'), Synset('light.a.01'), Synset('light.s.12')}
+original:: {Synset('original.s.04'), Synset('original.s.01'), Synset('original.a.03'), Synset('original.s.02')}
+purely:: {Synset('strictly.r.01')}
+parent:: {Synset('parent.n.02'), Synset('parent.n.01')}
+obvious:: {Synset('obvious.a.01')}
+best:: {Synset('good.s.07'), Synset('good.s.21'), Synset('good.s.06'), Synset('beneficial.s.01'), Synset('good.s.17'), Synset('best.a.01'), Synset('dependable.s.04'), Synset('dear.s.02'), Synset('good.s.20'), Synset('estimable.s.02'), Synset('adept.s.01'), Synset('good.a.03'), Synset('full.s.06'), Synset('good.s.18'), Synset('good.a.01'), Synset('good.s.16'), Synset('better.s.03'), Synset('good.s.15'), Synset('good.s.12'), Synset('good.s.19'), Synset('good.s.09'), Synset('effective.s.04'), Synset('good.s.13')}
+tr75:: set()
+much:: {Synset('much.a.01')}
+notation:: {Synset('notation.n.03'), Synset('notation.n.01'), Synset('note.n.07')}
+system:: {Synset('organization.n.05'), Synset('system.n.03'), Synset('system.n.08'), Synset('system.n.04'), Synset('system.n.06'), Synset('system.n.07'), Synset('arrangement.n.03'), Synset('system.n.02'), Synset('system.n.01')}
+future:: {Synset('future.n.02'), Synset('future.n.01'), Synset('future.n.03')}
+minimal:: {Synset('minimal.a.01')}
+enough:: {Synset('enough.r.01')}
+successful:: {Synset('successful.a.01')}
+people:: {Synset('multitude.n.03'), Synset('people.n.01'), Synset('people.n.03'), Synset('citizenry.n.01')}
+absolute:: {Synset('absolute.n.01')}
+importantly:: {Synset('importantly.r.01'), Synset('importantly.r.02')}
+overfitting:: set()
+like:: {Synset('like.n.01'), Synset('like.n.02')}
+collective:: {Synset('collective.s.03'), Synset('collective.a.02'), Synset('corporate.s.03')}
+crossover:: {Synset('crossover.n.03'), Synset('crossing_over.n.01'), Synset('crossing.n.05'), Synset('crossover_voter.n.01')}
+real-world:: set()
+dashed:: {Synset('dashed.s.01')}
+role:: {Synset('function.n.02'), Synset('function.n.03'), Synset('role.n.04'), Synset('character.n.04')}
+pre-given:: set()
+inconsistent:: {Synset('inconsistent.a.01'), Synset('inconsistent.s.02'), Synset('discrepant.s.02')}
+complementary:: {Synset('complementary.s.01'), Synset('complemental.s.01')}
+recall:: {Synset('recall.n.02'), Synset('recall.n.01'), Synset('recall.n.05'), Synset('recall.n.03'), Synset('recall.n.04')}
+web:: {Synset('web.n.06'), Synset('network.n.01'), Synset('web.n.07'), Synset('world_wide_web.n.01'), Synset('web.n.01'), Synset('web.n.02'), Synset('vane.n.04')}
+partially:: {Synset('partially.r.01')}
+roc:: {Synset('roc.n.01')}
+car:: {Synset('car.n.03'), Synset('car.n.01'), Synset('car.n.02'), Synset('cable_car.n.01'), Synset('car.n.04')}
+x3x2bookmusicmovievideox1y1uservirtual:: set()
+setting:: {Synset('mount.n.04'), Synset('setting.n.01'), Synset('context.n.02'), Synset('setting.n.05'), Synset('mise_en_scene.n.01'), Synset('setting.n.02'), Synset('place_setting.n.01')}
+class:: {Synset('class.n.07'), Synset('class.n.08'), Synset('class.n.01'), Synset('course.n.01'), Synset('class.n.05'), Synset('class.n.03'), Synset('class.n.02'), Synset('class.n.06')}
+tuw:: set()
+indiscriminate:: {Synset('indiscriminate.s.01'), Synset('indiscriminate.a.02')}
+time-varying:: set()
+user-item-domain:: set()
+mf-cdcf-if:: set()
+implicitly:: {Synset('implicitly.r.02'), Synset('implicitly.r.01')}
+level:: {Synset('degree.n.02'), Synset('level.n.04'), Synset('level.n.05'), Synset('level.n.07'), Synset('floor.n.02'), Synset('horizontal_surface.n.01'), Synset('grade.n.02'), Synset('degree.n.01')}
+heuristically:: set()
+copyright:: {Synset('copyright.n.01')}
+latent:: {Synset('latent.s.02'), Synset('latent.s.01')}
+beginning:: {Synset('beginning.n.03'), Synset('beginning.n.04'), Synset('beginning.n.02'), Synset('beginning.n.05'), Synset('beginning.n.01')}
+compute:: set()
+avg:: set()
+committee:: {Synset('committee.n.02'), Synset('committee.n.01')}
+interaction:: {Synset('interaction.n.02'), Synset('interaction.n.01')}
+modeling:: {Synset('modeling.n.02'), Synset('mold.n.08'), Synset('model.n.09')}
+effectively:: {Synset('efficaciously.r.01'), Synset('effectively.r.02')}
+result:: {Synset('result.n.03'), Synset('consequence.n.01'), Synset('resultant_role.n.01'), Synset('solution.n.02')}
+vectoru'w:: set()
+computational:: {Synset('computational.a.01')}
+r-component:: set()
+extension:: {Synset('extension.n.02'), Synset('extension.n.06'), Synset('propagation.n.01'), Synset('annex.n.01'), Synset('elongation.n.02'), Synset('reference.n.06'), Synset('extension.n.05'), Synset('extension.n.01'), Synset('extension.n.04'), Synset('extension.n.10'), Synset('extension.n.09'), Synset('extension.n.08')}
+performs:: set()
+applicable:: {Synset('applicable.s.01')}
+indirectly:: {Synset('indirectly.r.01')}
+parameter:: {Synset('argument.n.05'), Synset('parameter.n.02'), Synset('parameter.n.04'), Synset('parameter.n.01')}
+ubiquitous:: {Synset('omnipresent.s.01')}
+population:: {Synset('population.n.02'), Synset('population.n.01'), Synset('population.n.05'), Synset('population.n.03'), Synset('population.n.04')}
+negatively:: {Synset('negatively.r.02'), Synset('negatively.r.01')}
+sparse:: set()
+predicted:: set()
+world:: {Synset('populace.n.01'), Synset('world.n.08'), Synset('earth.n.01'), Synset('world.n.06'), Synset('world.n.02'), Synset('worldly_concern.n.01'), Synset('universe.n.01'), Synset('world.n.03')}
+state-of-the-art:: {Synset('state-of-the-art.s.01')}
+writtern:: set()
+never:: {Synset('never.r.02'), Synset('never.r.01')}
+finding:: set()
+unrated:: set()
+alternative:: {Synset('alternative.s.03'), Synset('alternate.s.02'), Synset('alternative.s.02')}
+electronic:: {Synset('electronic.a.02'), Synset('electronic.a.01')}
+explicit:: {Synset('explicit.a.01'), Synset('denotative.s.02')}
+iw3c2:: set()
+fund:: {Synset('fund.n.01'), Synset('store.n.02'), Synset('investment_company.n.01')}
+obviously:: {Synset('obviously.r.01')}
+inaccurate:: {Synset('inaccurate.a.01')}
+one-class:: set()
+entry:: {Synset('submission.n.01'), Synset('entrance.n.03'), Synset('entry.n.01'), Synset('entrance.n.01'), Synset('introduction.n.01'), Synset('entry.n.03')}
+cluster-level:: set()
+principal:: {Synset('chief.s.01')}
+horizontal:: {Synset('horizontal.a.01')}
+clustering:: {Synset('bunch.n.01')}
+gradient:: {Synset('gradient.n.02'), Synset('gradient.n.01')}
+blog:: {Synset('web_log.n.01')}
+rest:: {Synset('rest.n.05'), Synset('rest.n.04'), Synset('respite.n.04'), Synset('remainder.n.01'), Synset('rest.n.07'), Synset('rest.n.06'), Synset('rest.n.02')}
+widely:: {Synset('widely.r.03'), Synset('widely.r.01'), Synset('wide.r.04')}
+interest:: {Synset('interest.n.05'), Synset('interest.n.06'), Synset('sake.n.01'), Synset('interest.n.04'), Synset('pastime.n.01'), Synset('interest.n.01'), Synset('interest.n.03')}
+reconstructed:: {Synset('reconstructed.a.01')}
+active:: {Synset('active.a.05'), Synset('active.a.10'), Synset('active.a.01'), Synset('active.a.12'), Synset('active.a.06'), Synset('active.a.03'), Synset('active.a.09'), Synset('active.s.08'), Synset('active.a.14'), Synset('active.a.13'), Synset('active.s.04'), Synset('active.a.07'), Synset('active.a.11'), Synset('active.s.02')}
+frequently:: {Synset('frequently.r.01')}
+topic:: {Synset('subject.n.01'), Synset('topic.n.02')}
+c:: {Synset('deoxycytidine_monophosphate.n.01'), Synset('carbon.n.01'), Synset('coke.n.03'), Synset('c.n.10'), Synset('cytosine.n.01'), Synset('coulomb.n.01'), Synset('c.n.09'), Synset('speed_of_light.n.01'), Synset('c.n.11'), Synset('vitamin_c.n.01'), Synset('degree_centigrade.n.01'), Synset('hundred.n.01')}
+directly:: {Synset('immediately.r.01'), Synset('directly.r.02'), Synset('directly.r.01'), Synset('directly.r.04')}
+totally:: {Synset('wholly.r.01')}
+collaborative:: {Synset('collaborative.s.01')}
+one:: {Synset('one.n.02'), Synset('one.n.01')}
+interested:: {Synset('concerned.s.02'), Synset('interested.a.01')}
+parafac2:: set()
+feedback:: {Synset('feedback.n.02'), Synset('feedback.n.01')}
+law:: {Synset('law.n.04'), Synset('law.n.01'), Synset('law.n.03'), Synset('police.n.01'), Synset('law.n.06'), Synset('jurisprudence.n.01'), Synset('law.n.02')}
+fully:: {Synset('amply.r.02'), Synset('in_full.r.01'), Synset('fully.r.01')}
+others:: set()
+jiaotong:: set()
+low:: {Synset('low.s.03'), Synset('depleted.s.01'), Synset('low.s.04'), Synset('broken.s.03'), Synset('low.a.01'), Synset('low.a.02'), Synset('low.a.05'), Synset('abject.s.01'), Synset('humble.s.01'), Synset('gloomy.s.02')}
+aim:: {Synset('aim.n.03'), Synset('aim.n.02'), Synset('bearing.n.02'), Synset('purpose.n.01')}
+least:: {Synset('least.a.01')}
+majority:: {Synset('majority.n.02'), Synset('majority.n.03'), Synset('majority.n.01')}
+cube:: {Synset('cube.n.05'), Synset('cube.n.03'), Synset('cube.n.01'), Synset('cube.n.04'), Synset('block.n.03')}
+otherwise:: set()
+trade-off:: {Synset('tradeoff.n.01')}
+quite:: {Synset('quite.r.04'), Synset('quite.r.01'), Synset('quite.r.03'), Synset('quite.r.02')}
+row:: {Synset('row.n.03'), Synset('rowing.n.01'), Synset('quarrel.n.01'), Synset('course.n.08'), Synset('row.n.01'), Synset('row.n.06'), Synset('row.n.05')}
+name:: {Synset('name.n.04'), Synset('name.n.05'), Synset('name.n.01'), Synset('name.n.02'), Synset('name.n.06'), Synset('name.n.03')}
+domain-specific:: set()
+dimension:: {Synset('dimension.n.01'), Synset('property.n.04'), Synset('dimension.n.03'), Synset('proportion.n.02')}
+operator:: {Synset('hustler.n.02'), Synset('operator.n.05'), Synset('operator.n.03'), Synset('operator.n.01'), Synset('operator.n.02')}
+algorithm:: {Synset('algorithm.n.01')}
+consideration:: {Synset('consideration.n.01'), Synset('consideration.n.04'), Synset('retainer.n.01'), Synset('consideration.n.06'), Synset('consideration.n.03'), Synset('circumstance.n.03')}
+need:: {Synset('motivation.n.01'), Synset('indigence.n.01'), Synset('need.n.01'), Synset('need.n.02')}
+equivalent:: {Synset('equivalent.s.01')}
+issue:: {Synset('return.n.06'), Synset('issue.n.01'), Synset('topic.n.02'), Synset('offspring.n.01'), Synset('consequence.n.01'), Synset('emergence.n.02'), Synset('exit.n.01'), Synset('issue.n.05'), Synset('issue.n.11'), Synset('issue.n.02'), Synset('issue.n.04')}
+regularization:: {Synset('regulation.n.05'), Synset('regularization.n.01')}
+n:: set()
+post:: {Synset('post.n.09'), Synset('military_post.n.01'), Synset('post.n.06'), Synset('position.n.06'), Synset('mail.n.04'), Synset('mail.n.02'), Synset('post.n.07'), Synset('post.n.11'), Synset('post.n.05'), Synset('post.n.04'), Synset('post.n.01')}
+automatically:: {Synset('automatically.r.01'), Synset('mechanically.r.01')}
+co-rated:: set()
+whereas:: set()
+traditional:: {Synset('traditional.a.01'), Synset('traditional.s.02')}
+suitable:: {Synset('suitable.s.01'), Synset('desirable.s.02')}
+barrier:: {Synset('barrier.n.02'), Synset('barrier.n.01'), Synset('barrier.n.03')}
+quality:: {Synset('timbre.n.01'), Synset('quality.n.03'), Synset('quality.n.01'), Synset('quality.n.05'), Synset('quality.n.02')}
+website:: {Synset('web_site.n.01')}
+collection:: {Synset('collection.n.01'), Synset('solicitation.n.02'), Synset('collection.n.02'), Synset('collection.n.04')}
+binary:: {Synset('binary.s.02'), Synset('binary.a.01')}
+phenomenonuuser-factorvectorwwvuutaw:: set()
+weight:: {Synset('weight.n.03'), Synset('weight.n.01'), Synset('weight_unit.n.02'), Synset('weight.n.08'), Synset('weight.n.02'), Synset('weight.n.05'), Synset('weight.n.04'), Synset('system_of_weights.n.01')}
+descending:: set()
+dtl:: set()
+dimensionality:: {Synset('dimensionality.n.01')}
+correlation:: {Synset('correlation.n.01'), Synset('correlation_coefficient.n.01'), Synset('correlation.n.03')}
+al:: {Synset('alabama.n.01'), Synset('aluminum.n.01')}
+entire:: {Synset('entire.s.01'), Synset('integral.s.02'), Synset('entire.s.04'), Synset('entire.s.03')}
+necessary:: {Synset('necessary.s.02'), Synset('necessary.a.01')}
+contribution:: {Synset('contribution.n.02'), Synset('contribution.n.01'), Synset('contribution.n.05'), Synset('contribution.n.04'), Synset('contribution.n.03')}
+recommendation:: {Synset('recommendation.n.02'), Synset('recommendation.n.03'), Synset('recommendation.n.01')}
+part:: {Synset('part.n.03'), Synset('part.n.01'), Synset('function.n.03'), Synset('part.n.02'), Synset('character.n.04'), Synset('part.n.04'), Synset('share.n.01'), Synset('contribution.n.01'), Synset('region.n.01'), Synset('part.n.10'), Synset('part.n.09'), Synset('part.n.11')}
+order:: {Synset('order.n.13'), Synset('orderliness.n.02'), Synset('order.n.03'), Synset('order.n.07'), Synset('decree.n.01'), Synset('order.n.15'), Synset('ordering.n.01'), Synset('holy_order.n.01'), Synset('club.n.02'), Synset('order.n.12'), Synset('order.n.02'), Synset('order.n.09'), Synset('order.n.11'), Synset('order.n.14'), Synset('order.n.01')}
+select:: {Synset('blue-ribbon.s.01'), Synset('choice.s.01')}
+constant:: {Synset('constant.a.02'), Synset('changeless.s.02'), Synset('ceaseless.s.01')}
+augmented:: {Synset('augmented.s.01')}
+dominance:: {Synset('authority.n.01'), Synset('dominance.n.03'), Synset('dominance.n.02'), Synset('laterality.n.03')}
+factor:: {Synset('factor.n.06'), Synset('factor.n.01'), Synset('gene.n.01'), Synset('component.n.01'), Synset('agent.n.04'), Synset('factor.n.05'), Synset('divisor.n.01')}
+cf:: {Synset('cystic_fibrosis.n.01'), Synset('californium.n.01')}
+mapping:: {Synset('function.n.01'), Synset('mapping.n.02')}
+biomedical:: {Synset('biomedical.a.01')}
+hu:: set()
+statistic:: {Synset('statistic.n.01')}
+sufficient:: {Synset('sufficient.a.01')}
+main:: {Synset('chief.s.01'), Synset('independent.a.03'), Synset('main.s.03')}
+exactly:: {Synset('precisely.r.02'), Synset('precisely.r.03'), Synset('precisely.r.01')}
+tr25:: set()
+cdcf:: set()
+instead:: {Synset('alternatively.r.01'), Synset('rather.r.01')}
+usual:: {Synset('common.s.04'), Synset('usual.a.01')}
+transferred:: set()
+domain:: {Synset('world.n.02'), Synset('sphere.n.01'), Synset('knowledge_domain.n.01'), Synset('domain.n.02'), Synset('domain.n.03')}
+residual:: {Synset('residual.n.02'), Synset('remainder.n.01')}
+uninvolved:: {Synset('uninvolved.a.01'), Synset('degage.s.02')}
+hardly:: {Synset('hardly.r.02'), Synset('barely.r.01')}
+personalized:: {Synset('personalized.s.02'), Synset('individualized.s.01')}
+column-wise:: set()
+approach:: {Synset('approach_path.n.01'), Synset('approach.n.09'), Synset('approach.n.07'), Synset('overture.n.03'), Synset('access.n.03'), Synset('approach.n.02'), Synset('approach.n.05'), Synset('approach.n.08'), Synset('approach.n.01')}
+engineering:: {Synset('engineering.n.03'), Synset('technology.n.01'), Synset('engineering.n.02')}
+page:: {Synset('page.n.02'), Synset('page.n.04'), Synset('page.n.06'), Synset('page.n.01'), Synset('page.n.03'), Synset('page.n.05')}
+learning:: {Synset('eruditeness.n.01'), Synset('learning.n.01')}
+hot:: {Synset('hot.s.06'), Synset('hot.a.03'), Synset('hot.s.11'), Synset('hot.s.20'), Synset('hot.s.02'), Synset('hot.a.01'), Synset('hot.s.05'), Synset('hot.s.13'), Synset('blistering.s.03'), Synset('hot.s.18'), Synset('hot.s.04'), Synset('hot.s.19'), Synset('hot.s.16'), Synset('hot.s.17'), Synset('hot.s.08'), Synset('hot.s.12'), Synset('hot.s.14'), Synset('hot.s.21'), Synset('hot.s.10'), Synset('hot.s.15'), Synset('hot.s.09')}
+diagonal:: {Synset('aslant.s.01'), Synset('diagonal.s.01')}
+report:: {Synset('composition.n.08'), Synset('report.n.02'), Synset('report.n.04'), Synset('report_card.n.01'), Synset('report.n.03'), Synset('report.n.01'), Synset('reputation.n.03')}
+jointly:: {Synset('jointly.r.01'), Synset('jointly.r.02')}
+dual:: {Synset('double.s.01'), Synset('double.s.02'), Synset('dual.s.03')}
+access:: {Synset('access.n.05'), Synset('access.n.04'), Synset('access.n.03'), Synset('access.n.06'), Synset('access.n.02'), Synset('entree.n.02')}
+furthermore:: {Synset('furthermore.r.01')}
+k:: {Synset('kelvin.n.01'), Synset('potassium.n.01'), Synset('k.n.06'), Synset('thousand.n.01'), Synset('k.n.07'), Synset('kilobyte.n.02'), Synset('kilobyte.n.01')}
+orthonormal:: set()
+site:: {Synset('web_site.n.01'), Synset('site.n.01'), Synset('site.n.02')}
+specially:: {Synset('particularly.r.01'), Synset('specially.r.01')}
+reliable:: {Synset('dependable.s.02'), Synset('authentic.s.01'), Synset('reliable.a.01')}
+literature:: {Synset('literature.n.03'), Synset('literature.n.04'), Synset('literature.n.01'), Synset('literature.n.02')}
+half:: {Synset('half.n.02'), Synset('one-half.n.01')}
+frontal:: {Synset('frontal.a.02'), Synset('frontal.s.03'), Synset('frontal.s.04'), Synset('frontal.s.01')}
+purchase:: {Synset('purchase.n.02'), Synset('purchase.n.01'), Synset('leverage.n.01'), Synset('purchase.n.03')}
+personal:: {Synset('personal.a.01'), Synset('personal.a.03'), Synset('personal.s.02'), Synset('personal.s.04'), Synset('personal.a.05')}
+apps:: set()
+close:: {Synset('close.s.12'), Synset('cheeseparing.s.01'), Synset('near.a.01'), Synset('close.s.10'), Synset('close.a.01'), Synset('close.s.11'), Synset('close.s.09'), Synset('close.s.04'), Synset('airless.s.01'), Synset('close.s.06'), Synset('close.s.15'), Synset('close.a.02'), Synset('close.s.05'), Synset('close.s.13'), Synset('close.s.07')}
+coordinate:: {Synset('coordinate.n.01')}
+fact:: {Synset('fact.n.02'), Synset('fact.n.03'), Synset('fact.n.04'), Synset('fact.n.01')}
+corresponding:: {Synset('comparable.s.02'), Synset('corresponding.s.02'), Synset('corresponding.s.01')}
+cubical:: {Synset('cubelike.s.01')}
+utw:: set()
+e.g:: set()
+direct:: {Synset('direct.a.05'), Synset('direct.s.02'), Synset('direct.a.06'), Synset('direct.s.08'), Synset('direct.s.10'), Synset('direct.s.09'), Synset('direct.a.01'), Synset('lineal.a.01'), Synset('direct.a.03'), Synset('direct.a.07')}
+letter:: {Synset('letter.n.04'), Synset('letter.n.03'), Synset('letter.n.02'), Synset('letter.n.05'), Synset('letter.n.01')}
+manner:: {Synset('manner.n.03'), Synset('manner.n.01'), Synset('manner.n.02')}
+harshman:: set()
+heterogeneous:: {Synset('heterogeneous.a.01'), Synset('heterogenous.a.02')}
+work:: {Synset('work.n.05'), Synset('workplace.n.01'), Synset('oeuvre.n.01'), Synset('work.n.02'), Synset('employment.n.02'), Synset('study.n.02'), Synset('work.n.01')}
+eq:: {Synset('equivalent.n.02')}
+however:: {Synset('however.r.03'), Synset('however.r.04'), Synset('however.r.02'), Synset('however.r.01')}
+science:: {Synset('science.n.01'), Synset('skill.n.02')}
+unadjusted:: {Synset('unadapted.s.02'), Synset('unadjusted.a.01')}
+mode:: {Synset('mood.n.03'), Synset('mode.n.05'), Synset('manner.n.01'), Synset('mode.n.06'), Synset('mode.n.02'), Synset('modality.n.01')}
+type:: {Synset('type.n.04'), Synset('character.n.05'), Synset('type.n.06'), Synset('type.n.01'), Synset('type.n.03'), Synset('type.n.05')}
+rank:: {Synset('rank.n.02'), Synset('social_station.n.01'), Synset('rank_and_file.n.01'), Synset('membership.n.01'), Synset('rank.n.01')}
+technology:: {Synset('technology.n.01'), Synset('engineering.n.02')}
+amount:: {Synset('sum.n.02'), Synset('amount.n.02'), Synset('sum.n.01'), Synset('measure.n.02')}
+significantly:: {Synset('importantly.r.01'), Synset('significantly.r.02'), Synset('significantly.r.01')}
+fitness:: {Synset('seaworthiness.n.01'), Synset('fitness.n.02'), Synset('fitness.n.01'), Synset('fitness.n.04')}
+classical:: {Synset('classical.s.05'), Synset('classical.s.04'), Synset('authoritative.s.02'), Synset('classical.a.01'), Synset('classical.a.03')}
+bar:: {Synset('bar.n.03'), Synset('barroom.n.01'), Synset('bar.n.07'), Synset('bar.n.05'), Synset('browning_automatic_rifle.n.01'), Synset('bar.n.08'), Synset('stripe.n.05'), Synset('bar.n.15'), Synset('prevention.n.01'), Synset('legal_profession.n.01'), Synset('bar.n.13'), Synset('bar.n.14'), Synset('cake.n.01'), Synset('measure.n.07'), Synset('bar.n.02')}
+method:: {Synset('method.n.01'), Synset('method_acting.n.01')}
+ever:: {Synset('always.r.01'), Synset('ever.r.03'), Synset('ever.r.01')}
+let:: {Synset('lashkar-e-taiba.n.01'), Synset('let.n.02')}
+relatively:: {Synset('relatively.r.01')}
+actively:: {Synset('actively.r.01')}
+totality:: {Synset('sum.n.05'), Synset('entirety.n.01'), Synset('totality.n.02')}
+pearson:: set()
+form:: {Synset('form.n.07'), Synset('mannequin.n.02'), Synset('form.n.03'), Synset('form.n.10'), Synset('form.n.09'), Synset('form.n.16'), Synset('form.n.08'), Synset('phase.n.02'), Synset('shape.n.02'), Synset('form.n.01'), Synset('form.n.14'), Synset('class.n.02'), Synset('shape.n.01'), Synset('form.n.11'), Synset('kind.n.01'), Synset('human_body.n.01')}
+event:: {Synset('event.n.01'), Synset('event.n.03'), Synset('consequence.n.01'), Synset('event.n.02')}
+b:: {Synset('bel.n.01'), Synset('b-complex_vitamin.n.01'), Synset('boron.n.01'), Synset('bacillus.n.01'), Synset('b.n.06'), Synset('barn.n.02'), Synset('b.n.07')}
+v:: {Synset('vanadium.n.01'), Synset('volt.n.01'), Synset('v.n.04'), Synset('five.n.01')}
+tf:: set()
+material:: {Synset('material.n.05'), Synset('material.n.02'), Synset('material.n.01'), Synset('fabric.n.01'), Synset('material.n.04')}
+dvd:: {Synset('videodisk.n.01')}
+iteration:: {Synset('iteration.n.01'), Synset('iteration.n.02'), Synset('iteration.n.03')}
+corresponds:: set()
+together:: {Synset('together.r.02'), Synset('in_concert.r.01'), Synset('together.r.01'), Synset('together.r.04'), Synset('together.r.05'), Synset('together.r.03')}
+painful:: {Synset('atrocious.s.02'), Synset('afflictive.s.01'), Synset('irritating.s.03'), Synset('painful.a.01')}
+item:: {Synset('item.n.03'), Synset('detail.n.01'), Synset('token.n.01'), Synset('item.n.01'), Synset('detail.n.02')}
+ground:: {Synset('ground.n.05'), Synset('flat_coat.n.01'), Synset('land.n.04'), Synset('ground.n.10'), Synset('ground.n.09'), Synset('earth.n.02'), Synset('footing.n.02'), Synset('land.n.02'), Synset('ground.n.08'), Synset('background.n.02'), Synset('reason.n.01')}
+explicitly:: {Synset('explicitly.r.01')}
+concatenation:: {Synset('concatenation.n.04'), Synset('concatenation.n.02'), Synset('chain.n.01'), Synset('concatenation.n.01')}
+strategy:: {Synset('strategy.n.02'), Synset('scheme.n.01')}
+derivative:: {Synset('derivative.n.02'), Synset('derived_function.n.01'), Synset('derivative_instrument.n.01'), Synset('derivative.n.04')}
+search:: {Synset('search.n.05'), Synset('search.n.02'), Synset('search.n.03'), Synset('search.n.01'), Synset('search.n.04')}
+movie:: {Synset('movie.n.01')}
+*3235345232521513522452bookmusicuserpower:: set()
+element-wise:: set()
+passively:: {Synset('passively.r.01')}
+serf:: {Synset('serf.n.01')}
+reserve:: {Synset('modesty.n.02'), Synset('reservation.n.01'), Synset('reserve.n.04'), Synset('military_reserve.n.01'), Synset('reserve.n.02'), Synset('substitute.n.02'), Synset('reserve.n.07')}
+parafac:: set()
+prof:: {Synset('professor.n.01')}
+china:: set()
+size:: {Synset('size.n.01'), Synset('size.n.05'), Synset('size.n.02'), Synset('size.n.04'), Synset('size.n.03')}
+boldface:: {Synset('boldface.n.01')}
+several:: {Synset('several.s.01'), Synset('respective.s.01'), Synset('several.s.03')}
+new:: {Synset('new.s.04'), Synset('newfangled.s.01'), Synset('new.s.05'), Synset('raw.s.12'), Synset('new.s.08'), Synset('new.a.01'), Synset('modern.s.05'), Synset('fresh.s.04'), Synset('new.a.06'), Synset('new.s.11'), Synset('new.s.10')}
+converging:: {Synset('convergence.n.04')}
+divergence:: {Synset('deviation.n.01'), Synset('divergence.n.03'), Synset('discrepancy.n.01'), Synset('divergence.n.01')}
+constraint:: {Synset('constraint.n.03'), Synset('constraint.n.01'), Synset('restraint.n.06')}
+data:: {Synset('data.n.01'), Synset('datum.n.01')}
+top:: {Synset('top.a.01')}
+question:: {Synset('motion.n.05'), Synset('question.n.03'), Synset('question.n.02'), Synset('doubt.n.02'), Synset('question.n.06'), Synset('question.n.01')}
+cmf:: set()
+robust:: {Synset('full-bodied.s.01'), Synset('robust.a.01'), Synset('robust.s.04'), Synset('robust.s.03')}
+long:: {Synset('long.s.03'), Synset('long.a.02'), Synset('long.a.01'), Synset('retentive.a.01'), Synset('long.s.07'), Synset('long.a.05'), Synset('long.s.09'), Synset('farseeing.s.02'), Synset('long.a.06')}
+poor:: {Synset('poor.s.06'), Synset('hapless.s.01'), Synset('poor.a.04'), Synset('poor.a.03'), Synset('inadequate.s.02'), Synset('poor.a.02')}
+degree:: {Synset('degree.n.02'), Synset('academic_degree.n.01'), Synset('degree.n.04'), Synset('degree.n.05'), Synset('degree.n.06'), Synset('degree.n.07'), Synset('degree.n.01')}
+far:: {Synset('far.r.02'), Synset('far.r.03'), Synset('far.r.05'), Synset('far.r.04'), Synset('far.r.01')}
+repeat:: {Synset('repeat.n.01')}
+prediction:: {Synset('prediction.n.01'), Synset('prediction.n.02')}
+division:: {Synset('division.n.10'), Synset('division.n.01'), Synset('class.n.05'), Synset('division.n.05'), Synset('division.n.09'), Synset('division.n.11'), Synset('division.n.03'), Synset('division.n.12'), Synset('division.n.08'), Synset('part.n.09'), Synset('division.n.07'), Synset('division.n.04')}
+min:: {Synset('minute.n.01'), Synset('min.n.03'), Synset('min.n.02')}
+unconsumed:: {Synset('unconsumed.s.01')}
+exclusive:: {Synset('single.s.07'), Synset('exclusive.a.02'), Synset('exclusive.s.01')}
+lag:: {Synset('interim.n.01'), Synset('stave.n.02'), Synset('slowdown.n.01')}
+inner:: {Synset('inside.s.03'), Synset('inner.a.02'), Synset('inner.s.05'), Synset('inner.s.01'), Synset('inner.s.03'), Synset('inner.s.06')}
+record:: {Synset('record.n.06'), Synset('record.n.07'), Synset('phonograph_record.n.01'), Synset('criminal_record.n.01'), Synset('record.n.01'), Synset('record.n.03'), Synset('record.n.05'), Synset('record.n.04')}
+life:: {Synset('life.n.03'), Synset('life.n.10'), Synset('life.n.05'), Synset('life_sentence.n.01'), Synset('life.n.08'), Synset('biography.n.01'), Synset('life.n.01'), Synset('life.n.06'), Synset('life.n.02'), Synset('life.n.13'), Synset('animation.n.01'), Synset('life.n.07'), Synset('life.n.11'), Synset('liveliness.n.02')}
+yg2011ms38:: set()
+university:: {Synset('university.n.01'), Synset('university.n.03'), Synset('university.n.02')}
+particular:: {Synset('finical.s.01'), Synset('particular.s.04'), Synset('particular.s.06'), Synset('especial.s.01'), Synset('particular.s.01'), Synset('particular.s.02')}
+early:: {Synset('early.s.06'), Synset('early.s.04'), Synset('early.a.05'), Synset('early.a.02'), Synset('early.a.01'), Synset('early.s.03')}
+decomposition/parallel:: set()
+returned:: set()
+similarity:: {Synset('similarity.n.02'), Synset('similarity.n.01')}
+cst:: {Synset('central_time.n.01')}
+operation:: {Synset('process.n.02'), Synset('operation.n.01'), Synset('operation.n.06'), Synset('operation.n.05'), Synset('operation.n.02'), Synset('operation.n.03'), Synset('operation.n.07'), Synset('mathematical_process.n.01'), Synset('operation.n.04'), Synset('operation.n.08'), Synset('operation.n.11')}
+i.e:: set()
+possible:: {Synset('potential.a.01'), Synset('possible.a.01')}
+opinion:: {Synset('impression.n.01'), Synset('opinion.n.05'), Synset('opinion.n.01'), Synset('opinion.n.04'), Synset('opinion.n.02'), Synset('public_opinion.n.01')}
+rating-matrix:: set()
+accordingly:: {Synset('accordingly.r.02'), Synset('consequently.r.01')}
+lot:: {Synset('draw.n.04'), Synset('bunch.n.03'), Synset('lot.n.07'), Synset('set.n.05'), Synset('batch.n.02'), Synset('fortune.n.04'), Synset('lot.n.02')}
+tucker:: {Synset('tucker.n.01'), Synset('tucker.n.04'), Synset('tucker.n.02'), Synset('tucker.n.03')}
+curve:: {Synset('curvature.n.03'), Synset('curve.n.03'), Synset('curve.n.02'), Synset('curve.n.01'), Synset('bend.n.03')}
+differ:: set()
+du:: set()
+account:: {Synset('account.n.10'), Synset('account.n.07'), Synset('report.n.03'), Synset('report.n.02'), Synset('account.n.06'), Synset('history.n.02'), Synset('explanation.n.01'), Synset('score.n.05'), Synset('account.n.03'), Synset('bill.n.02')}
+uniqueness:: set()
+loss:: {Synset('loss.n.01'), Synset('loss.n.06'), Synset('loss.n.03'), Synset('loss.n.04'), Synset('loss.n.05'), Synset('passing.n.02'), Synset('loss.n.02'), Synset('personnel_casualty.n.01')}
+sparse-data:: set()
+unaware:: {Synset('unaware.a.01')}
+n-cdcf:: set()
+cao:: set()
+probability:: {Synset('probability.n.02'), Synset('probability.n.01')}
+approximate:: {Synset('approximate.s.02'), Synset('approximate.s.03'), Synset('approximate.s.01')}
+unique:: {Synset('singular.s.06'), Synset('unique.s.04'), Synset('alone.s.04'), Synset('unique.s.02')}
+similar:: {Synset('like.a.01'), Synset('exchangeable.s.03'), Synset('alike.a.01'), Synset('similar.a.01'), Synset('similar.s.04')}
+hyperlink:: {Synset('hyperlink.n.01')}
+codebook:: set()
+extent:: {Synset('extent.n.01'), Synset('extent.n.02')}
+rich:: {Synset('deep.s.07'), Synset('rich.a.08'), Synset('full-bodied.s.01'), Synset('ample.s.02'), Synset('rich.a.01'), Synset('rich.a.02'), Synset('rich.s.06'), Synset('rich.s.03'), Synset('rich.s.11'), Synset('fat.s.05'), Synset('rich.s.09'), Synset('rich.a.07')}
+left:: {Synset('leftover.s.01'), Synset('left.s.03'), Synset('left.a.04'), Synset('left.a.01')}
+wmusic:: set()
+automated:: {Synset('automated.s.01')}
+conference:: {Synset('conference.n.01'), Synset('conference.n.03'), Synset('league.n.01')}
+wdvd:: set()
+feature:: {Synset('feature.n.03'), Synset('feature_of_speech.n.01'), Synset('feature.n.04'), Synset('feature.n.01'), Synset('feature.n.06'), Synset('feature.n.02')}
+she/he:: set()
+act:: set()
+assumption:: {Synset('assumption.n.02'), Synset('assumption.n.07'), Synset('assumption.n.05'), Synset('premise.n.01'), Synset('assumption.n.04'), Synset('assumption.n.03'), Synset('presumption.n.03')}
+mae:: set()
+uniformly:: {Synset('uniformly.r.01')}
+kronecker:: {Synset('kronecker.n.01')}
+full:: {Synset('full.a.05'), Synset('full.s.06'), Synset('full.s.03'), Synset('broad.s.05'), Synset('full.a.01'), Synset('full.s.04'), Synset('entire.s.01'), Synset('wide.s.06')}
+pair:: {Synset('couple.n.04'), Synset('pair.n.03'), Synset('pair.n.04'), Synset('pair.n.01')}
+information:: {Synset('data.n.01'), Synset('information.n.03'), Synset('information.n.02'), Synset('information.n.05'), Synset('information.n.01')}
+national:: {Synset('national.s.04'), Synset('national.a.02'), Synset('home.s.03'), Synset('national.a.06'), Synset('national.a.07'), Synset('national.a.01'), Synset('national.a.03')}
+negative:: {Synset('negative.s.06'), Synset('negative.s.03'), Synset('negative.a.02'), Synset('negative.a.05'), Synset('damaging.s.02'), Synset('minus.s.02'), Synset('negative.a.04'), Synset('negative.s.08'), Synset('negative.a.01')}
+acm:: set()
+sparsity:: {Synset('sparseness.n.01')}
+complexity:: {Synset('complexity.n.01')}
+process:: {Synset('process.n.02'), Synset('summons.n.03'), Synset('process.n.06'), Synset('process.n.04'), Synset('procedure.n.01'), Synset('process.n.05')}
+scale:: {Synset('plate.n.14'), Synset('scale.n.08'), Synset('scale.n.02'), Synset('scale.n.04'), Synset('scale.n.10'), Synset('scale.n.06'), Synset('scale.n.03'), Synset('scale.n.07'), Synset('scale.n.01'), Synset('scale.n.05')}
+=cp-als-r:: set()
+mixed:: {Synset('assorted.s.01'), Synset('interracial.s.02')}
+limitation:: {Synset('limitation.n.02'), Synset('limitation.n.04'), Synset('limitation.n.05'), Synset('limit.n.06'), Synset('restriction.n.01')}
+efficiency:: {Synset('efficiency.n.02'), Synset('efficiency.n.01')}
+author:: {Synset('generator.n.03'), Synset('writer.n.01')}
+improvement:: {Synset('improvement.n.02'), Synset('improvement.n.03'), Synset('improvement.n.01')}
+reality:: {Synset('reality.n.04'), Synset('world.n.03'), Synset('reality.n.03'), Synset('reality.n.02')}
+well-known:: {Synset('long-familiar.s.01'), Synset('well-known.s.01')}
+penalty:: {Synset('penalty.n.02'), Synset('penalty.n.04'), Synset('punishment.n.01'), Synset('penalty.n.03')}
+basic:: {Synset('basic.s.02'), Synset('basic.s.04'), Synset('basic.s.03'), Synset('basic.a.01')}
+inevitable:: {Synset('inevitable.a.01'), Synset('inevitable.s.02')}
+f:: {Synset('farad.n.01'), Synset('fluorine.n.01'), Synset('degree_fahrenheit.n.01'), Synset('f.n.04')}
+implicit:: {Synset('implicit.a.01'), Synset('implicit.s.02')}
+density:: {Synset('density.n.01'), Synset('concentration.n.02')}
+share:: {Synset('share.n.01'), Synset('contribution.n.01'), Synset('share.n.02'), Synset('parcel.n.02'), Synset('plowshare.n.01')}
+near:: {Synset('cheeseparing.s.01'), Synset('near.a.01'), Synset('near.s.02'), Synset('near.s.03'), Synset('approximate.s.02'), Synset('dear.s.02')}
+whole:: {Synset('solid.s.15'), Synset('hale.s.01'), Synset('unharmed.s.01'), Synset('whole.a.01'), Synset('whole.a.02')}
+analysis:: {Synset('analysis.n.05'), Synset('analysis.n.02'), Synset('analysis.n.04'), Synset('analysis.n.01'), Synset('psychoanalysis.n.01'), Synset('analysis.n.03')}
+famous:: {Synset('celebrated.s.01')}
+child:: {Synset('child.n.03'), Synset('child.n.02'), Synset('child.n.04'), Synset('child.n.01')}
+cdmf:: set()
+cross:: {Synset('cross.n.04'), Synset('hybrid.n.03'), Synset('hybridization.n.01'), Synset('cross.n.03'), Synset('cross.n.01'), Synset('crisscross.n.01')}
+cycle:: {Synset('cycle.n.01'), Synset('cycle.n.02'), Synset('cycle.n.05'), Synset('bicycle.n.01'), Synset('cycle.n.03'), Synset('hertz.n.01')}
+municipality:: {Synset('municipality.n.02'), Synset('municipality.n.01')}
+cross-product:: set()
+semi-manual:: set()
+regularized:: set()
+input:: {Synset('remark.n.01'), Synset('input_signal.n.01'), Synset('stimulation.n.02'), Synset('input.n.04')}
+zero:: {Synset('nothing.n.01'), Synset('zero.n.04'), Synset('zero.n.02'), Synset('zero.n.03')}
+relative:: {Synset('proportional.s.01'), Synset('relative.a.01')}
+optimal:: {Synset('optimum.s.01')}
+scaled:: {Synset('scaly.s.02'), Synset('scaled.s.02')}
+rank-one:: set()
+user-factor:: set()
+absent:: {Synset('absent.a.01'), Synset('absent.s.03'), Synset('lacking.s.02')}
+section:: {Synset('section.n.13'), Synset('section.n.01'), Synset('section.n.04'), Synset('section.n.09'), Synset('section.n.10'), Synset('department.n.01'), Synset('section.n.07'), Synset('part.n.09'), Synset('section.n.08'), Synset('section.n.11'), Synset('section.n.03'), Synset('incision.n.02'), Synset('section.n.05'), Synset('section.n.02')}
+unfortunately:: {Synset('unfortunately.r.01')}
+www.amazon.com:: set()
+invariant:: {Synset('invariant.s.01'), Synset('changeless.s.02')}
+dense:: set()
+metric:: {Synset('system_of_measurement.n.01'), Synset('metric_function.n.01'), Synset('metric_unit.n.01')}
+evidence:: {Synset('evidence.n.03'), Synset('evidence.n.01'), Synset('evidence.n.02')}
+mf-sgd:: set()
+all-one:: set()
+internet:: {Synset('internet.n.01')}
+observation:: {Synset('observation.n.03'), Synset('observation.n.02'), Synset('observation.n.04'), Synset('observation.n.01'), Synset('notice.n.02')}
+user-item:: set()
+dataset:: set()
+bad:: {Synset('bad.s.07'), Synset('bad.s.06'), Synset('regretful.a.01'), Synset('bad.s.13'), Synset('bad.s.08'), Synset('bad.s.02'), Synset('bad.s.10'), Synset('bad.s.11'), Synset('bad.a.01'), Synset('bad.s.14'), Synset('bad.s.09'), Synset('bad.s.12'), Synset('bad.s.04'), Synset('bad.s.03')}
+assignment:: {Synset('assignment.n.02'), Synset('appointment.n.01'), Synset('assignment.n.05'), Synset('assignment.n.03'), Synset('assignment.n.01'), Synset('grant.n.03')}
+case:: {Synset('lawsuit.n.01'), Synset('case.n.04'), Synset('case.n.11'), Synset('case.n.09'), Synset('case.n.12'), Synset('character.n.05'), Synset('shell.n.08'), Synset('casing.n.03'), Synset('case.n.18'), Synset('sheath.n.02'), Synset('case.n.20'), Synset('font.n.01'), Synset('case.n.01'), Synset('case.n.19'), Synset('event.n.02'), Synset('case.n.10'), Synset('subject.n.06'), Synset('case.n.08'), Synset('case.n.05'), Synset('case.n.06')}
+u:: {Synset('u.s.01')}
+deviation:: {Synset('deviation.n.02'), Synset('deviation.n.01'), Synset('deviation.n.03'), Synset('diversion.n.02'), Synset('deviation.n.04')}
+variable:: {Synset('variable.n.02'), Synset('variable_star.n.01'), Synset('variable.n.04'), Synset('variable.n.01')}
+right:: {Synset('right_field.n.01'), Synset('right.n.05'), Synset('right.n.08'), Synset('right.n.01'), Synset('right.n.02'), Synset('right.n.06'), Synset('right.n.04'), Synset('right.n.07')}
+cdtf-if:: set()
+maximization:: {Synset('maximization.n.01'), Synset('maximization.n.02')}
+major:: {Synset('major.a.07'), Synset('major.a.02'), Synset('major.a.06'), Synset('major.a.01'), Synset('major.s.08'), Synset('major.a.05'), Synset('major.a.04'), Synset('major.a.03')}
+sometimes:: {Synset('sometimes.r.01')}
+rating:: {Synset('military_rank.n.01'), Synset('rating.n.03'), Synset('evaluation.n.01'), Synset('evaluation.n.02')}
+probabilistic:: {Synset('probabilistic.a.01'), Synset('probabilistic.a.02')}
+cosine:: {Synset('cosine.n.01')}
+phenomenon:: {Synset('phenomenon.n.01'), Synset('phenomenon.n.02')}
+previous:: {Synset('former.s.03'), Synset('previous.s.03'), Synset('previous.s.01')}
+study:: {Synset('survey.n.01'), Synset('cogitation.n.02'), Synset('study.n.02'), Synset('study.n.05'), Synset('sketch.n.01'), Synset('discipline.n.01'), Synset('study.n.04'), Synset('study.n.10'), Synset('report.n.01'), Synset('study.n.09')}
+successfully:: {Synset('successfully.r.01')}
+concern:: {Synset('business.n.01'), Synset('concern.n.01'), Synset('concern.n.04'), Synset('concern.n.03'), Synset('concern.n.02')}
+ga:: {Synset('gallium.n.01'), Synset('georgia.n.01'), Synset('tabun.n.01')}
+amazon:: {Synset('amazon.n.02'), Synset('amazon.n.03'), Synset('amazon.n.04'), Synset('amazon.n.01')}
+user:: {Synset('user.n.01'), Synset('exploiter.n.01'), Synset('drug_user.n.01')}
+matricizing:: set()
+squared:: {Synset('squared.s.01')}
+likewise:: {Synset('alike.r.01'), Synset('similarly.r.01'), Synset('besides.r.02')}
+followed:: set()
+multiple:: {Synset('multiple.n.01')}
+1-100:: set()
+initialization:: {Synset('low-level_formatting.n.01')}
+end:: {Synset('end.n.03'), Synset('end.n.01'), Synset('end.n.05'), Synset('end.n.13'), Synset('end.n.07'), Synset('end.n.08'), Synset('end.n.02'), Synset('end.n.09'), Synset('end.n.10'), Synset('goal.n.01'), Synset('end.n.06'), Synset('end.n.11'), Synset('end.n.14'), Synset('conclusion.n.08')}
+therefore:: {Synset('consequently.r.02'), Synset('therefore.r.01')}
+profile:: {Synset('profile.n.02'), Synset('profile.n.01'), Synset('profile.n.05'), Synset('profile.n.03'), Synset('visibility.n.02')}
+internal:: {Synset('inner.s.01'), Synset('internal.s.02'), Synset('internal.a.01'), Synset('inner.s.03'), Synset('home.s.03')}
+available:: {Synset('available.s.03'), Synset('available.s.02'), Synset('available.a.01')}
+13/05.the:: set()
+training:: {Synset('training.n.01'), Synset('education.n.05')}
+popular:: {Synset('popular.s.04'), Synset('democratic.s.03'), Synset('popular.a.01'), Synset('popular.s.02')}
+set:: {Synset('set.n.10'), Synset('set.n.08'), Synset('hardening.n.02'), Synset('set.n.02'), Synset('set.n.11'), Synset('stage_set.n.01'), Synset('set.n.13'), Synset('set.n.07'), Synset('set.n.05'), Synset('bent.n.01'), Synset('set.n.12'), Synset('set.n.01'), Synset('set.n.03')}
+derivation:: {Synset('derivation.n.03'), Synset('ancestry.n.02'), Synset('derivation.n.07'), Synset('derivation.n.04'), Synset('derivation.n.01'), Synset('derivation.n.06'), Synset('deriving.n.01'), Synset('derivation.n.08')}
+number:: {Synset('number.n.01'), Synset('number.n.09'), Synset('numeral.n.01'), Synset('phone_number.n.01'), Synset('number.n.10'), Synset('act.n.04'), Synset('number.n.07'), Synset('number.n.02'), Synset('issue.n.02'), Synset('number.n.08'), Synset('number.n.11')}
+relationship:: {Synset('kinship.n.02'), Synset('relationship.n.03'), Synset('relationship.n.02'), Synset('relationship.n.01')}
+conditional:: {Synset('conditional.s.01'), Synset('conditional.a.02')}
+deterioration:: {Synset('deterioration.n.02'), Synset('deterioration.n.01')}
+box:: {Synset('corner.n.08'), Synset('box.n.08'), Synset('box.n.10'), Synset('box.n.05'), Synset('box.n.09'), Synset('box.n.03'), Synset('box.n.01'), Synset('box.n.02'), Synset('box.n.06'), Synset('box.n.07')}
+difficulty:: {Synset('difficulty.n.03'), Synset('trouble.n.04'), Synset('difficulty.n.02'), Synset('difficulty.n.04')}
+global:: {Synset('global.s.01'), Synset('ball-shaped.s.01')}
+thus:: {Synset('thus.r.02'), Synset('therefore.r.01')}
+property:: {Synset('property.n.04'), Synset('property.n.05'), Synset('place.n.02'), Synset('property.n.02'), Synset('property.n.01')}
+international:: {Synset('external.s.03'), Synset('international.a.01')}
+indicates:: set()
+homogeneity:: {Synset('homogeneity.n.01'), Synset('homogeneity.n.02')}
+experiment:: {Synset('experiment.n.02'), Synset('experiment.n.01'), Synset('experiment.n.03')}
+weakness:: {Synset('weakness.n.03'), Synset('failing.n.01'), Synset('helplessness.n.01'), Synset('weakness.n.04'), Synset('weakness.n.05')}
+identical:: {Synset('identical.s.01'), Synset('identical.s.04'), Synset('identical.a.03'), Synset('identical.s.05'), Synset('identical.s.02')}
+typical:: {Synset('typical.s.03'), Synset('typical.a.01'), Synset('distinctive.s.01')}
+anonymous:: {Synset('anonymous.s.02'), Synset('anonymous.a.01')}
+highly:: {Synset('highly.r.03'), Synset('highly.r.02'), Synset('highly.r.01')}
+deal:: {Synset('hand.n.06'), Synset('deal.n.04'), Synset('deal.n.08'), Synset('deal.n.09'), Synset('deal.n.01'), Synset('batch.n.02'), Synset('deal.n.07'), Synset('softwood.n.01'), Synset('bargain.n.01')}
+descent:: {Synset('descent.n.03'), Synset('lineage.n.01'), Synset('descent.n.01'), Synset('descent.n.04'), Synset('descent.n.05'), Synset('origin.n.02')}
+way:: {Synset('way.n.09'), Synset('way.n.11'), Synset('way.n.05'), Synset('way.n.06'), Synset('room.n.02'), Synset('means.n.01'), Synset('manner.n.01'), Synset('way.n.04'), Synset('way.n.10'), Synset('direction.n.01'), Synset('way.n.12'), Synset('way.n.07')}
+unacquainted:: {Synset('innocent.s.05'), Synset('unacquainted.s.02')}
+incomplete:: {Synset('incomplete.s.02'), Synset('incomplete.a.01')}
+lack:: {Synset('lack.n.01')}
+=w:: set()
+additional:: {Synset('extra.s.03')}
+preparation:: {Synset('homework.n.01'), Synset('preparation.n.05'), Synset('readiness.n.01'), Synset('training.n.01'), Synset('cooking.n.01'), Synset('formulation.n.01'), Synset('planning.n.03'), Synset('preparation.n.01')}
+red:: {Synset('crimson.s.02'), Synset('crimson.s.03'), Synset('red.s.01')}
+various:: {Synset('respective.s.01'), Synset('assorted.s.02'), Synset('diverse.s.02'), Synset('versatile.s.01')}
+easily:: {Synset('well.r.03'), Synset('easily.r.02'), Synset('easily.r.01')}
+factorization:: {Synset('factorization.n.01')}
+smartphone:: set()
+heavy:: {Synset('heavy.a.01'), Synset('heavy.a.03'), Synset('big.s.06'), Synset('heavy.s.10'), Synset('fleshy.s.01'), Synset('grave.s.03'), Synset('heavy.a.04'), Synset('heavy.s.20'), Synset('heavy.s.13'), Synset('heavy.s.19'), Synset('heavy.s.22'), Synset('intemperate.s.03'), Synset('heavy.a.09'), Synset('dense.s.01'), Synset('heavy.s.12'), Synset('heavy.s.15'), Synset('heavy.s.18'), Synset('heavy.s.21'), Synset('heavy.s.23'), Synset('arduous.s.01'), Synset('heavy.a.02'), Synset('heavy.a.08'), Synset('heavy.s.26'), Synset('clayey.s.02'), Synset('big.s.13'), Synset('heavy.s.07'), Synset('heavy.s.25')}
+easy:: {Synset('comfortable.s.05'), Synset('easy.a.03'), Synset('easy.s.02'), Synset('easy.s.09'), Synset('easy.s.04'), Synset('easy.s.12'), Synset('easy.s.10'), Synset('easy.s.08'), Synset('easy.s.05'), Synset('easy.s.06'), Synset('easy.a.01'), Synset('easy.s.11')}
+holdout:: {Synset('holdout.n.01'), Synset('holdout.n.02'), Synset('holdout.n.03')}
+proportional:: {Synset('proportional.s.02'), Synset('proportional.s.01')}
+moreover:: {Synset('furthermore.r.01')}
+substitution:: {Synset('substitution.n.01'), Synset('substitution.n.02')}
+valuable:: {Synset('valuable.a.01'), Synset('valuable.s.02')}
+http:: {Synset('hypertext_transfer_protocol.n.01')}
+performance:: {Synset('performance.n.02'), Synset('performance.n.03'), Synset('operation.n.08'), Synset('performance.n.01'), Synset('performance.n.04')}
+firstly:: {Synset('first.r.01')}
+unknown:: {Synset('obscure.s.04'), Synset('nameless.s.01'), Synset('unknown.a.01'), Synset('unknown.s.03'), Synset('strange.s.02')}
+signal:: {Synset('signal.n.02'), Synset('signal.n.03'), Synset('signal.n.01')}
+willing:: {Synset('willing.a.01'), Synset('uncoerced.s.01')}
+stochastic:: {Synset('stochastic.s.01')}
+user-based:: set()
+requirement:: {Synset('necessity.n.02'), Synset('prerequisite.n.01'), Synset('requirement.n.01')}
+minority:: {Synset('minority.n.01'), Synset('minority.n.02'), Synset('minority.n.03')}
+addition:: {Synset('addition.n.01'), Synset('accession.n.03'), Synset('addition.n.02'), Synset('addition.n.05'), Synset('summation.n.04'), Synset('addition.n.03')}
+average:: {Synset('modal.s.01'), Synset('average.s.02'), Synset('median.s.01'), Synset('average.s.04'), Synset('average.s.01'), Synset('average.s.03')}
+book:: {Synset('book.n.06'), Synset('ledger.n.01'), Synset('script.n.01'), Synset('book.n.02'), Synset('book.n.07'), Synset('koran.n.01'), Synset('bible.n.01'), Synset('book.n.10'), Synset('book.n.11'), Synset('record.n.05'), Synset('book.n.01')}
+auxiliary:: {Synset('auxiliary.s.01'), Synset('accessory.s.02')}
+following:: {Synset('following.s.04'), Synset('following.s.01'), Synset('following.s.02'), Synset('following.a.03')}
+bridge:: {Synset('bridge.n.02'), Synset('bridge.n.01'), Synset('bridge.n.06'), Synset('bridge.n.08'), Synset('bridge.n.03'), Synset('bridge.n.07'), Synset('bridge.n.09'), Synset('bridge.n.04'), Synset('bridge.n.05')}
+generationnext:: set()
+score:: {Synset('score.n.04'), Synset('score.n.02'), Synset('sexual_conquest.n.01'), Synset('score.n.10'), Synset('score.n.03'), Synset('score.n.05'), Synset('score.n.07'), Synset('score.n.08'), Synset('score.n.06'), Synset('grudge.n.01'), Synset('mark.n.01')}
+accurate:: {Synset('accurate.a.01'), Synset('accurate.s.02')}
+datasets:: set()
+like-minded:: {Synset('like-minded.s.01')}
+activity:: {Synset('bodily_process.n.01'), Synset('action.n.02'), Synset('activeness.n.02'), Synset('activity.n.04'), Synset('activity.n.01'), Synset('natural_process.n.01')}
+hand:: {Synset('hand.n.08'), Synset('hand.n.06'), Synset('hand.n.05'), Synset('bridge_player.n.01'), Synset('hand.n.12'), Synset('hired_hand.n.01'), Synset('hand.n.04'), Synset('hand.n.01'), Synset('hand.n.07'), Synset('hand.n.13'), Synset('hand.n.14'), Synset('hand.n.10'), Synset('handwriting.n.01'), Synset('hand.n.09')}
+status:: {Synset('condition.n.01'), Synset('status.n.01')}
+turn:: {Synset('turn.n.09'), Synset('turn.n.11'), Synset('turn.n.04'), Synset('turn.n.06'), Synset('act.n.04'), Synset('twist.n.13'), Synset('go.n.01'), Synset('turn.n.03'), Synset('turning.n.04'), Synset('turn.n.12'), Synset('turn.n.02'), Synset('bend.n.01')}
+parafac2-like:: set()
+fails:: set()
+e-business:: set()
+area:: {Synset('area.n.01'), Synset('area.n.03'), Synset('area.n.02'), Synset('sphere.n.01'), Synset('area.n.05'), Synset('area.n.06')}
+pre-computed:: set()
+finally:: {Synset('ultimately.r.01'), Synset('finally.r.01'), Synset('last.r.02')}
+tri-factorization:: set()
+three-order:: set()
+frobenius:: set()
+attribute:: {Synset('property.n.04'), Synset('attribute.n.02')}
+temporal:: {Synset('temporal.s.01'), Synset('temporal.a.03'), Synset('temporal.s.05'), Synset('worldly.a.01'), Synset('temporal.a.02')}
+sub-procedure:: set()
+silent:: set()
+descendingly:: set()
+many:: {Synset('many.a.01')}
+straightforward:: set()
+mf:: {Synset('medium_frequency.n.01')}
+product:: {Synset('product.n.05'), Synset('product.n.04'), Synset('product.n.02'), Synset('product.n.03'), Synset('merchandise.n.01'), Synset('intersection.n.04')}
+transitively:: {Synset('transitively.r.01')}
+normally:: {Synset('normally.r.01')}
+application:: {Synset('application.n.04'), Synset('application.n.06'), Synset('application.n.02'), Synset('application.n.01'), Synset('application.n.07'), Synset('lotion.n.02'), Synset('application.n.03')}
+high:: {Synset('high.a.02'), Synset('eminent.s.01'), Synset('high.s.07'), Synset('gamey.s.02'), Synset('high.a.01'), Synset('high.s.05'), Synset('high.a.04')}
+vector:: {Synset('vector.n.04'), Synset('vector.n.02'), Synset('vector.n.03'), Synset('vector.n.01')}
+imputation:: {Synset('imputation.n.01'), Synset('imputation.n.02')}
+duality:: {Synset('duality.n.02'), Synset('duality.n.03'), Synset('dichotomy.n.01')}
+matrix:: set()
+price:: {Synset('price.n.05'), Synset('price.n.06'), Synset('price.n.07'), Synset('price.n.03'), Synset('price.n.02'), Synset('monetary_value.n.01'), Synset('price.n.04')}
+scaling:: {Synset('scaling.n.02'), Synset('scaling.n.01'), Synset('scaling.n.03')}
+handling:: {Synset('treatment.n.02'), Synset('handling.n.02'), Synset('handling.n.01')}
+evaluation:: {Synset('evaluation.n.01'), Synset('evaluation.n.02')}
+________________________:: set()
+become:: set()
+therein:: set()
+hypothesis:: {Synset('guess.n.01'), Synset('hypothesis.n.01'), Synset('hypothesis.n.02')}
+yield:: {Synset('return.n.06'), Synset('output.n.04'), Synset('output.n.02'), Synset('yield.n.03')}
+review:: {Synset('reappraisal.n.01'), Synset('follow-up.n.03'), Synset('review.n.04'), Synset('review.n.09'), Synset('revue.n.01'), Synset('recapitulation.n.03'), Synset('inspection.n.01'), Synset('review.n.02'), Synset('review.n.06'), Synset('review.n.08')}
+range:: {Synset('range.n.05'), Synset('scope.n.01'), Synset('compass.n.03'), Synset('stove.n.01'), Synset('image.n.07'), Synset('range.n.06'), Synset('range.n.04'), Synset('range.n.02'), Synset('range.n.03')}
+corner:: {Synset('corner.n.08'), Synset('corner.n.04'), Synset('corner.n.03'), Synset('recess.n.02'), Synset('corner.n.02'), Synset('corner.n.07'), Synset('corner.n.11'), Synset('corner.n.01'), Synset('corner.n.10'), Synset('corner.n.05'), Synset('corner.n.09')}
+standard:: {Synset('standard.s.02'), Synset('standard.a.03'), Synset('standard.s.05'), Synset('standard.a.01'), Synset('standard.a.04')}
+expectation:: {Synset('expectation.n.01'), Synset('arithmetic_mean.n.01'), Synset('anticipation.n.04'), Synset('expectation.n.03')}
+model:: {Synset('model.n.01'), Synset('model.n.03'), Synset('model.n.07'), Synset('model.n.04'), Synset('model.n.09'), Synset('model.n.02'), Synset('exemplar.n.01'), Synset('mannequin.n.01'), Synset('model.n.06')}
+term:: {Synset('term.n.04'), Synset('term.n.05'), Synset('term.n.06'), Synset('terminus.n.03'), Synset('term.n.01'), Synset('condition.n.07'), Synset('term.n.02')}
+ranking:: {Synset('ranking.n.01')}
+target:: {Synset('aim.n.02'), Synset('prey.n.01'), Synset('target.n.03'), Synset('target.n.01'), Synset('target.n.04')}
+svd:: set()
+intuitively:: {Synset('intuitively.r.01')}
+generation600-mutation:: set()
+dominant:: {Synset('prevailing.s.01'), Synset('dominant.a.01'), Synset('dominant.a.02')}
+summary:: {Synset('drumhead.s.01'), Synset('compendious.s.01')}
+medium:: {Synset('medium.n.06'), Synset('medium.n.02'), Synset('medium.n.08'), Synset('medium.n.09'), Synset('medium.n.07'), Synset('medium.n.03'), Synset('medium.n.05'), Synset('culture_medium.n.01'), Synset('metier.n.02'), Synset('medium.n.01'), Synset('medium.n.10')}
+cup2:: set()
+comparative:: {Synset('relative.a.01'), Synset('comparative.a.01')}
+generalized:: {Synset('generalized.s.01')}
+exponentially:: {Synset('exponentially.r.01')}
+bayesian:: {Synset('bayesian.a.01')}
+thing:: {Synset('thing.n.10'), Synset('thing.n.09'), Synset('matter.n.01'), Synset('thing.n.12'), Synset('thing.n.02'), Synset('thing.n.04'), Synset('thing.n.01'), Synset('thing.n.08'), Synset('thing.n.05'), Synset('thing.n.11'), Synset('thing.n.07'), Synset('thing.n.03')}
+single-domain:: set()
+truw:: set()
+neighbor:: {Synset('neighbor.n.01'), Synset('neighbor.n.02')}
+norm:: {Synset('norm.n.01'), Synset('average.n.01')}
+experience:: {Synset('experience.n.02'), Synset('experience.n.01'), Synset('experience.n.03')}
+immediately:: {Synset('immediately.r.01'), Synset('immediately.r.02'), Synset('immediately.r.03')}
+first:: {Synset('foremost.r.01'), Synset('first.r.03'), Synset('first.r.01'), Synset('first.r.02')}
+plot:: {Synset('plot.n.02'), Synset('plot.n.01'), Synset('plot.n.04'), Synset('plot.n.03')}
+eye:: {Synset('eye.n.03'), Synset('eye.n.01'), Synset('center.n.01'), Synset('eye.n.05'), Synset('eye.n.02')}
+little:: {Synset('small.a.01'), Synset('little.s.03'), Synset('short.a.03'), Synset('little.a.02'), Synset('little.s.05'), Synset('little.s.08'), Synset('little.s.07'), Synset('fiddling.s.01')}
+influence:: {Synset('influence.n.04'), Synset('influence.n.05'), Synset('influence.n.01'), Synset('influence.n.02'), Synset('influence.n.03')}
+most-pop:: set()
+foundation:: {Synset('foundation.n.04'), Synset('basis.n.02'), Synset('foundation.n.03'), Synset('initiation.n.02'), Synset('foundation_garment.n.01'), Synset('foundation.n.02'), Synset('foundation.n.01')}
+paper:: {Synset('composition.n.08'), Synset('newspaper.n.03'), Synset('paper.n.05'), Synset('newspaper.n.01'), Synset('paper.n.01'), Synset('paper.n.04'), Synset('newspaper.n.02')}
+essential:: {Synset('all-important.s.01'), Synset('essential.a.02'), Synset('substantive.a.02'), Synset('essential.a.04'), Synset('essential.s.01')}
+well:: {Synset('well.r.04'), Synset('well.r.13'), Synset('well.r.11'), Synset('well.r.09'), Synset('well.r.01'), Synset('well.r.07'), Synset('well.r.02'), Synset('well.r.12'), Synset('well.r.03'), Synset('well.r.10'), Synset('well.r.08'), Synset('well.r.06'), Synset('well.r.05')}
+buy:: {Synset('bargain.n.02')}
+script:: {Synset('script.n.03'), Synset('script.n.01'), Synset('handwriting.n.01')}
+abundant:: {Synset('abundant.a.01')}
+facebook:: set()
+classified:: {Synset('classified.a.02'), Synset('classified.a.01')}
+=1:: set()
+normal:: {Synset('normal.a.01'), Synset('normal.s.04'), Synset('normal.a.03'), Synset('normal.a.02')}
+tuuwvwvtransferitem-factor:: set()
+initial:: {Synset('initial.s.01')}
+virtual:: {Synset('virtual.s.01'), Synset('virtual.s.02')}
+entertainment:: {Synset('entertainment.n.01')}
+truth:: {Synset('truth.n.03'), Synset('truth.n.01'), Synset('truth.n.05'), Synset('truth.n.02'), Synset('accuracy.n.01')}
+sport:: {Synset('fun.n.02'), Synset('mutant.n.01'), Synset('sport.n.04'), Synset('sport.n.03'), Synset('sport.n.05'), Synset('sport.n.02'), Synset('sport.n.01')}
+favorite:: {Synset('favored.s.01'), Synset('favorite.s.01')}
+tweet:: {Synset('tweet.n.01')}
+important:: {Synset('significant.a.01'), Synset('authoritative.s.01'), Synset('crucial.a.01'), Synset('important.a.01'), Synset('important.s.05')}
+wvhs:: set()
+concatenated:: set()
+general:: {Synset('general.a.01'), Synset('general.s.02'), Synset('general.s.05'), Synset('general.s.03'), Synset('general.a.04'), Synset('cosmopolitan.s.03')}
+pf2-if:: set()
+completely:: {Synset('completely.r.02'), Synset('wholly.r.01')}
+slice:: {Synset('slice.n.05'), Synset('slice.n.06'), Synset('slice.n.01'), Synset('slice.n.04'), Synset('cut.n.05'), Synset('piece.n.08')}
+pattern:: {Synset('form.n.03'), Synset('design.n.04'), Synset('blueprint.n.01'), Synset('convention.n.02'), Synset('radiation_pattern.n.01'), Synset('practice.n.01'), Synset('traffic_pattern.n.01'), Synset('pattern.n.05')}
+argument:: {Synset('argument.n.01'), Synset('argument.n.05'), Synset('argumentation.n.02'), Synset('argument.n.03'), Synset('argument.n.06'), Synset('controversy.n.01'), Synset('argument.n.04')}
+shift:: {Synset('shift.n.01'), Synset('shift.n.07'), Synset('shift.n.03'), Synset('transformation.n.01'), Synset('switch.n.07'), Synset('shift.n.05'), Synset('chemise.n.01'), Synset('shift_key.n.01'), Synset('fault.n.04'), Synset('chemise.n.02')}
+figure:: {Synset('digit.n.01'), Synset('number.n.01'), Synset('name.n.04'), Synset('design.n.04'), Synset('trope.n.01'), Synset('figure.n.11'), Synset('figure.n.13'), Synset('figure.n.07'), Synset('figure.n.04'), Synset('figure.n.08'), Synset('human_body.n.01'), Synset('figure.n.06'), Synset('figure.n.01')}
+able:: {Synset('able.s.03'), Synset('able.s.04'), Synset('able.s.02'), Synset('able.a.01')}
+generation:: {Synset('generation.n.03'), Synset('generation.n.02'), Synset('genesis.n.01'), Synset('generation.n.07'), Synset('generation.n.04'), Synset('generation.n.06'), Synset('coevals.n.01')}
+observed:: {Synset('ascertained.s.01')}
+indicative:: {Synset('indicative.s.02'), Synset('indicative.a.01')}
+value:: {Synset('value.n.03'), Synset('value.n.01'), Synset('value.n.02'), Synset('value.n.04'), Synset('value.n.06'), Synset('value.n.05')}
+cdtf:: set()
+special:: {Synset('special.s.04'), Synset('particular.s.04'), Synset('extra.s.02'), Synset('especial.s.01'), Synset('special.s.02'), Synset('limited.s.06'), Synset('particular.s.01')}
+indicator:: {Synset('indicator.n.03'), Synset('index.n.02'), Synset('indicator.n.04'), Synset('indicator.n.02')}
+a2:: set()
+server:: {Synset('server.n.04'), Synset('waiter.n.01'), Synset('server.n.03'), Synset('server.n.02')}
+local:: {Synset('local.a.02'), Synset('local.a.01'), Synset('local.a.03')}
+shoe:: {Synset('shoe.n.02'), Synset('brake_shoe.n.01'), Synset('horseshoe.n.02'), Synset('shoe.n.01')}
+1-5:: set()
+back-substitution:: set()
+khatri-rao:: set()
+home:: {Synset('home.n.07'), Synset('dwelling.n.01'), Synset('home.n.01'), Synset('base.n.14'), Synset('home.n.09'), Synset('home.n.03'), Synset('family.n.01'), Synset('home.n.06'), Synset('home_plate.n.01')}
+scenario:: {Synset('scenario.n.03'), Synset('scenario.n.02'), Synset('scenario.n.01')}
+rightmost:: set()
+profit:: {Synset('profit.n.02'), Synset('net_income.n.01')}
+demand:: {Synset('demand.n.01'), Synset('need.n.01'), Synset('demand.n.04'), Synset('demand.n.02'), Synset('requirement.n.01')}
+
+Abstract:::
+-----------------------------
+particular:: {Synset('finical.s.01'), Synset('particular.s.04'), Synset('particular.s.06'), Synset('especial.s.01'), Synset('particular.s.01'), Synset('particular.s.02')}
+implicit:: {Synset('implicit.a.01'), Synset('implicit.s.02')}
+potentially:: {Synset('potentially.r.01')}
+user-item-domain:: set()
+finally:: {Synset('ultimately.r.01'), Synset('finally.r.01'), Synset('last.r.02')}
+optimally:: {Synset('optimally.r.01')}
+superiority:: {Synset('superiority.n.01'), Synset('superiority.n.03'), Synset('superiority.n.02'), Synset('transcendence.n.02')}
+due:: {Synset('ascribable.s.01'), Synset('due.s.02'), Synset('due.a.01'), Synset('due.a.03')}
+available:: {Synset('available.s.03'), Synset('available.s.02'), Synset('available.a.01')}
+weight:: {Synset('weight.n.03'), Synset('weight.n.01'), Synset('weight_unit.n.02'), Synset('weight.n.08'), Synset('weight.n.02'), Synset('weight.n.05'), Synset('weight.n.04'), Synset('system_of_weights.n.01')}
+cross:: {Synset('cross.n.04'), Synset('hybrid.n.03'), Synset('hybridization.n.01'), Synset('cross.n.03'), Synset('cross.n.01'), Synset('crisscross.n.01')}
+genetic:: {Synset('genetic.a.03'), Synset('familial.s.02'), Synset('genetic.a.04'), Synset('genic.a.01')}
+topic:: {Synset('subject.n.01'), Synset('topic.n.02')}
+satisfactorily:: {Synset('satisfactorily.r.01')}
+problem:: {Synset('problem.n.01'), Synset('problem.n.02'), Synset('trouble.n.01')}
+real:: {Synset('veridical.s.01'), Synset('real.s.04'), Synset('real.s.03'), Synset('real.a.02'), Synset('real.a.01'), Synset('real.a.06'), Synset('substantial.a.03'), Synset('actual.s.03'), Synset('real.s.08')}
+commonly:: {Synset('normally.r.01')}
+collaborative:: {Synset('collaborative.s.01')}
+cf:: {Synset('cystic_fibrosis.n.01'), Synset('californium.n.01')}
+result:: {Synset('result.n.03'), Synset('consequence.n.01'), Synset('resultant_role.n.01'), Synset('solution.n.02')}
+interaction:: {Synset('interaction.n.02'), Synset('interaction.n.01')}
+feedback:: {Synset('feedback.n.02'), Synset('feedback.n.01')}
+respectively:: {Synset('respectively.r.01')}
+sufficient:: {Synset('sufficient.a.01')}
+recommender:: set()
+triadic:: set()
+model:: {Synset('model.n.01'), Synset('model.n.03'), Synset('model.n.07'), Synset('model.n.04'), Synset('model.n.09'), Synset('model.n.02'), Synset('exemplar.n.01'), Synset('mannequin.n.01'), Synset('model.n.06')}
+state-of-the-art:: {Synset('state-of-the-art.s.01')}
+however:: {Synset('however.r.03'), Synset('however.r.04'), Synset('however.r.02'), Synset('however.r.01')}
+domain-specific:: set()
+preference:: {Synset('predilection.n.01'), Synset('preference.n.03'), Synset('preference.n.04'), Synset('preference.n.01')}
+generalized:: {Synset('generalized.s.01')}
+year:: {Synset('year.n.01'), Synset('class.n.06'), Synset('year.n.02'), Synset('year.n.03')}
+experiment:: {Synset('experiment.n.02'), Synset('experiment.n.01'), Synset('experiment.n.03')}
+filtering:: set()
+dense:: set()
+world:: {Synset('populace.n.01'), Synset('world.n.08'), Synset('earth.n.01'), Synset('world.n.06'), Synset('world.n.02'), Synset('worldly_concern.n.01'), Synset('universe.n.01'), Synset('world.n.03')}
+recent:: {Synset('late.s.03'), Synset('recent.s.01')}
+domain:: {Synset('world.n.02'), Synset('sphere.n.01'), Synset('knowledge_domain.n.01'), Synset('domain.n.02'), Synset('domain.n.03')}
+influence:: {Synset('influence.n.04'), Synset('influence.n.05'), Synset('influence.n.01'), Synset('influence.n.02'), Synset('influence.n.03')}
+uninvolved:: {Synset('uninvolved.a.01'), Synset('degage.s.02')}
+quite:: {Synset('quite.r.04'), Synset('quite.r.01'), Synset('quite.r.03'), Synset('quite.r.02')}
+datasets:: set()
+approach:: {Synset('approach_path.n.01'), Synset('approach.n.09'), Synset('approach.n.07'), Synset('overture.n.03'), Synset('access.n.03'), Synset('approach.n.02'), Synset('approach.n.05'), Synset('approach.n.08'), Synset('approach.n.01')}
+technique:: {Synset('technique.n.01'), Synset('proficiency.n.02')}
+research:: {Synset('research.n.01'), Synset('inquiry.n.01')}
+system:: {Synset('organization.n.05'), Synset('system.n.03'), Synset('system.n.08'), Synset('system.n.04'), Synset('system.n.06'), Synset('system.n.07'), Synset('arrangement.n.03'), Synset('system.n.02'), Synset('system.n.01')}
+comparative:: {Synset('relative.a.01'), Synset('comparative.a.01')}
+compare:: {Synset('comparison.n.03')}
+algorithm:: {Synset('algorithm.n.01')}
+cdtf:: set()
+prediction:: {Synset('prediction.n.01'), Synset('prediction.n.02')}
+cross-domain:: set()
+cdcf:: set()
+real-world:: set()
+major:: {Synset('major.a.07'), Synset('major.a.02'), Synset('major.a.06'), Synset('major.a.01'), Synset('major.s.08'), Synset('major.a.05'), Synset('major.a.04'), Synset('major.a.03')}
+parameter:: {Synset('argument.n.05'), Synset('parameter.n.02'), Synset('parameter.n.04'), Synset('parameter.n.01')}
+sparsity:: {Synset('sparseness.n.01')}
+relation:: {Synset('relative.n.01'), Synset('relation.n.01'), Synset('relation.n.04'), Synset('relation.n.06'), Synset('relation_back.n.01'), Synset('sexual_intercourse.n.01')}
+lack:: {Synset('lack.n.01')}
+factor:: {Synset('factor.n.06'), Synset('factor.n.01'), Synset('gene.n.01'), Synset('component.n.01'), Synset('agent.n.04'), Synset('factor.n.05'), Synset('divisor.n.01')}
+even:: {Synset('even.r.02'), Synset('even.r.04'), Synset('even.r.01'), Synset('even.r.03')}
+factorization:: {Synset('factorization.n.01')}
+current:: {Synset('current.a.01')}
+data:: {Synset('data.n.01'), Synset('datum.n.01')}
+user:: {Synset('user.n.01'), Synset('exploiter.n.01'), Synset('drug_user.n.01')}
+hence:: set()
+scenario:: {Synset('scenario.n.03'), Synset('scenario.n.02'), Synset('scenario.n.01')}
+paper:: {Synset('composition.n.08'), Synset('newspaper.n.03'), Synset('paper.n.05'), Synset('newspaper.n.01'), Synset('paper.n.01'), Synset('paper.n.04'), Synset('newspaper.n.02')}
+item:: {Synset('item.n.03'), Synset('detail.n.01'), Synset('token.n.01'), Synset('item.n.01'), Synset('detail.n.02')}
+explicit:: set()
+
+TextRank Output:::
+-----------------------------
+matrix:: {Synset('matrix.n.03'), Synset('matrix.n.06'), Synset('matrix.n.05'), Synset('matrix.n.02'), Synset('matrix.n.04'), Synset('matrix.n.01')}
+rating:: {Synset('military_rank.n.01'), Synset('rating.n.03'), Synset('evaluation.n.01'), Synset('evaluation.n.02')}
+domain:: {Synset('world.n.02'), Synset('sphere.n.01'), Synset('knowledge_domain.n.01'), Synset('domain.n.02'), Synset('domain.n.03')}
+factor:: {Synset('factor.n.06'), Synset('factor.n.01'), Synset('gene.n.01'), Synset('component.n.01'), Synset('agent.n.04'), Synset('factor.n.05'), Synset('divisor.n.01')}
+row:: {Synset('row.n.03'), Synset('rowing.n.01'), Synset('quarrel.n.01'), Synset('course.n.08'), Synset('row.n.01'), Synset('row.n.06'), Synset('row.n.05')}
+slice:: {Synset('slice.n.05'), Synset('slice.n.06'), Synset('slice.n.01'), Synset('slice.n.04'), Synset('cut.n.05'), Synset('piece.n.08')}
+domain-specific:: set()
+target:: {Synset('aim.n.02'), Synset('prey.n.01'), Synset('target.n.03'), Synset('target.n.01'), Synset('target.n.04')}
+model:: {Synset('model.n.01'), Synset('model.n.03'), Synset('model.n.07'), Synset('model.n.04'), Synset('model.n.09'), Synset('model.n.02'), Synset('exemplar.n.01'), Synset('mannequin.n.01'), Synset('model.n.06')}
+diagonal:: {Synset('aslant.s.01'), Synset('diagonal.s.01')}
+indicative:: {Synset('indicative.s.02'), Synset('indicative.a.01')}
+user:: {Synset('user.n.01'), Synset('exploiter.n.01'), Synset('drug_user.n.01')}
+prediction:: {Synset('prediction.n.01'), Synset('prediction.n.02')}
+b:: {Synset('bel.n.01'), Synset('b-complex_vitamin.n.01'), Synset('boron.n.01'), Synset('bacillus.n.01'), Synset('b.n.06'), Synset('barn.n.02'), Synset('b.n.07')}
+item:: {Synset('item.n.03'), Synset('detail.n.01'), Synset('token.n.01'), Synset('item.n.01'), Synset('detail.n.02')}
+column:: {Synset('column.n.02'), Synset('column.n.08'), Synset('column.n.05'), Synset('column.n.06'), Synset('column.n.09'), Synset('column.n.03'), Synset('column.n.01'), Synset('column.n.04'), Synset('column.n.07')}
+Completely Matched:
+------------------------------
+user
+domain
+factor
+model
+domain-specific
+prediction
+item
+Partially Matched:
+----------------------------
